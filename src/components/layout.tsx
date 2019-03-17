@@ -31,9 +31,9 @@ const Layout: FC = ({ children }) => (
             * {
               color: #4f464f;
             }
-            /* h1 {
-              color: #ccbfcc;
-            } */
+            h1 {
+              color: #6367a7;
+            }
           `}
         />
         <Header siteTitle={data.site.siteMetadata.title} />

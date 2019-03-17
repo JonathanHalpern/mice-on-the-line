@@ -29,7 +29,7 @@ const Tube = ({ storiesMeta }) => {
   console.log(story)
   return (
     <SvgWrapper>
-      <StyledSvg width="100%" viewBox="400 330 300 200">
+      <StyledSvg width="100%" viewBox="400 332 300 200">
         <River />
         <Lines />
         <StationNames />

@@ -19,7 +19,12 @@ const Background = styled.rect`
   stroke: rgb(0, 0, 0);
 `
 
-const CloseButtonWrapper = styled.g``
+const CloseButton = styled.image`
+  cursor: pointer;
+  width: 10px;
+  :hover {
+  }
+`
 
 const width = 80
 const height = 80
@@ -33,7 +38,8 @@ const StoryPreview: FC<Props> = ({
   y,
   mouseLeave,
 }) => {
-  var s = require(`../../images/${storyId}-cover.jpeg`)
+  const mouseImage = require(`../../images/${storyId}-cover.jpeg`)
+  const closeIcon = require(`../../images/close.png`)
   return (
     <Wrapper
       transform={`matrix(1 0 0 1 ${x - width / 2} ${y - height / 2})`}
@@ -50,7 +56,13 @@ const StoryPreview: FC<Props> = ({
         >
           {storyTitle}
         </text> */}
-        <image width={width} height={height} xlinkHref={s} x={0} y={0} />
+        <image
+          width={width}
+          height={height}
+          xlinkHref={mouseImage}
+          x={0}
+          y={0}
+        />
         {/* <text
           textAnchor="middle"
           x={width / 2}
@@ -63,11 +75,7 @@ const StoryPreview: FC<Props> = ({
           {description}
         </text> */}
       </Link>
-      <g>
-        <text x={3} y={5} onMouseDown={mouseLeave}>
-          X
-        </text>
-      </g>
+      <CloseButton xlinkHref={closeIcon} x={0} y={0} onMouseDown={mouseLeave} />
     </Wrapper>
   )
 }
