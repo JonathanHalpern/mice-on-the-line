@@ -33,6 +33,14 @@ module.exports = {
               name: "images",
             },
           },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 500,
+              showCaptions: false,
+              linkImagesToOriginal: false,
+            },
+          },
           "gatsby-remark-smartypants",
         ],
       },

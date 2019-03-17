@@ -1,10 +1,6 @@
 import React, { FC } from "react"
 
-type Props = {
-  mouseOver: (station: string) => void
-}
-
-const interchangeCircles: FC<Props> = ({ mouseOver }) => (
+const interchangeCircles: FC = () => (
   <g id="interchange-circles">
     <g id="lul-northern_940gzzlucpn_raillo-overground_910gclphhs_1_">
       <g id="lul-northern_940gzzlucpn_raillo-overground_910gclphhs_2_">
@@ -2203,9 +2199,6 @@ const interchangeCircles: FC<Props> = ({ mouseOver }) => (
     </g>
     <g
       id="lul-northern_lul-piccadilly_940gzzlulsq_1_"
-      onMouseEnter={() => {
-        mouseOver("leicester-square")
-      }}
     >
       <path
         fill="#FFFFFF"
@@ -2214,7 +2207,7 @@ const interchangeCircles: FC<Props> = ({ mouseOver }) => (
       />
       <path d="M540.2,457.4c0,1.9-1.5,3.4-3.4,3.4c-1.9,0-3.4-1.5-3.4-3.4c0-1.9,1.5-3.4,3.4-3.4C538.6,454,540.2,455.5,540.2,457.4z M536.7,459.7c1.3,0,2.3-1,2.3-2.3c0-1.3-1-2.3-2.3-2.3s-2.3,1-2.3,2.3C534.5,458.7,535.5,459.7,536.7,459.7z" />
     </g>
-    <g id="lul-bakerloo_lul-northern_940gzzluchx_1_">
+    <g id="lul-bakerloo_lul-northern_940gzzluchx_1_" >
       <path
         fill="#FFFFFF"
         d="M539.6,486c0,1.6-1.3,2.8-2.8,2.8c-1.6,0-2.8-1.3-2.8-2.8c0-1.6,1.3-2.8,2.8-2.8 C538.3,483.1,539.6,484.4,539.6,486z"

@@ -8,6 +8,7 @@
 import React, { FC } from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { Global, css } from "@emotion/core"
 
 import Header from "./header"
 import "./layout.css"
@@ -25,6 +26,16 @@ const Layout: FC = ({ children }) => (
     `}
     render={data => (
       <>
+        <Global
+          styles={css`
+            * {
+              color: #4f464f;
+            }
+            /* h1 {
+              color: #ccbfcc;
+            } */
+          `}
+        />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -35,11 +46,6 @@ const Layout: FC = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
         </div>
       </>
     )}

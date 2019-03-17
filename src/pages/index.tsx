@@ -1,60 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import tube from "../images/tube.svg"
 import Svg from "../components/tube"
 
-const StyledImg = styled.img`
-  @import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
-  svg {
-    font-family: "HammersmithOne", "Hammersmith One";
-    font-size: 4.6px;
-  }
-
-  @-webkit-keyframes flashline {
-    0% {
-      opacity: 0;
-    }
-    15%,
-    70% {
-      opacity: 1;
-    }
-    85%,
-    100% {
-      opacity: 0;
-    }
-  }
-
-  @keyframes flashline {
-    0% {
-      opacity: 0;
-    }
-    15%,
-    70% {
-      opacity: 1;
-    }
-    85%,
-    100% {
-      opacity: 0;
-    }
-  }
-
-  .linedisrupted {
-    -webkit-animation: flashline 1s ease infinite;
-    animation: flashline 1s ease infinite;
-  }
-`
-
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
+    {console.log(data)}
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {/* <img src={tube} /> */}
-    <Svg />
+    <Svg
+      storiesMeta={data.allMarkdownRemark.edges.map(
+        edge => edge.node.frontmatter
+      )}
+    />
   </Layout>
 )
+
+export const IndexPageQuery = graphql`
+  query {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            id
+            description
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
