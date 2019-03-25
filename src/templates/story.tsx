@@ -1,9 +1,23 @@
 import React from "react"
+import styled from "@emotion/styled"
 import { Link, graphql } from "gatsby"
+import Book from "../components/book"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { rhythm, scale } from "../utils/typography"
+
+const Title = styled.h1`
+  text-align: center;
+  margin: 0 0 60px 0;
+`
+
+const Wrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background: #fff5ff;
+  padding: 30px;
+`
 
 type Props = {
   data: {
@@ -29,14 +43,15 @@ class BlogPostTemplate extends React.Component<Props> {
     const siteTitle = this.props.data.site.siteMetadata.title
 
     return (
-      <Layout>
+      <Wrapper>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </Layout>
+        <Title>{post.frontmatter.title}</Title>
+        <Book />
+        {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
+      </Wrapper>
     )
   }
 }
