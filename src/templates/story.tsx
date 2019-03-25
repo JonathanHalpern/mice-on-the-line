@@ -1,22 +1,16 @@
 import React from "react"
 import styled from "@emotion/styled"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Book from "../components/book"
-
 import Layout from "../components/layout"
+import Header from "../components/header"
 import SEO from "../components/seo"
-// import { rhythm, scale } from "../utils/typography"
-
-const Title = styled.h1`
-  text-align: center;
-  margin: 0 0 60px 0;
-`
 
 const Wrapper = styled.div`
   height: 100vh;
   width: 100vw;
   background: #fff5ff;
-  padding: 30px;
+  padding: 25px 40px;
 `
 
 type Props = {
@@ -40,18 +34,20 @@ type Props = {
 class BlogPostTemplate extends React.Component<Props> {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const pages = post.html.split("<!--break-->")
 
     return (
-      <Wrapper>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
-        <Title>{post.frontmatter.title}</Title>
-        <Book />
-        {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
-      </Wrapper>
+      <>
+        <Header siteTitle={this.props.data.site.siteMetadata.title} />
+        <Wrapper>
+          <SEO
+            title={post.frontmatter.title}
+            description={post.frontmatter.description || post.excerpt}
+          />
+
+          <Book pages={pages} />
+        </Wrapper>
+      </>
     )
   }
 }

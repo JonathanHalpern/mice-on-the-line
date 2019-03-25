@@ -66,7 +66,7 @@ const front = [
     title: "Charing Cross",
   },
 ]
-const story = [
+export const story = [
   {
     picture:
       "https://www.miceontheline.co.uk/static/87e07e78c93ebff87806a18410175a66/b2f9d/charing-cross-cover.jpg",

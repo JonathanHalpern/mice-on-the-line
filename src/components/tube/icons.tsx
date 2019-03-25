@@ -48,6 +48,9 @@ const Icons: FC<Props> = ({ mouseOver }) => (
         onMouseEnter={() => {
           mouseOver(icon)
         }}
+        onClick={() => {
+          mouseOver(icon)
+        }}
       >
         <MouseIcon x={icon.x} y={icon.y} />
       </g>

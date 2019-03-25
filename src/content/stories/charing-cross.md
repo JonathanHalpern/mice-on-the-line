@@ -6,11 +6,42 @@ description: Some creatures are rare in London. You are unlikely to find giraffe
 date: "2015-06-01T22:12:03.284Z"
 ---
 
+#Charing Cross
 ![null](img/charing-cross-cover.jpeg)
 
-Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo. However, two creatures you are extremely likely to find here are pigeons and mice. With so many around, it is small wonder that these rather different creatures have come to learn each other's languages. This skill proves particularly useful is when one or the other is lost and needs some directions from its land-dwelling or sky-flying companion. This just so happened to be the case one afternoon at Trafalgar Square, when a pigeon followed a lady into the London Underground.
-The lady in question wore a grumpy expression on her long, grey face. Her clothing was speckled with flecks of white. Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she had rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread. “There's enough of these disease-riddled scumbags in London already without you feeding them, thoughtless child!” The little boy had begun to cry, for he had carried the crumbs with him all morning just to feed the birds. Outraged, the child's parents had rushed over to the woman, demanding she give the bread back. However, the lady held on to the bag so tightly that, when the boy's father reached over to grab it, the plastic ripped and both boy and lady were covered head to toe in crumbs. At this, the boy delighted. Pigeons from all around were coming to peck bread from his laces to his hair. For the same reason, the lady was horrified. She scampered to the nearest tube station to avoid the onslaught of pigeons, feeling herself pinched and pecked by the nasty beasts.
-When she had descended into the depths of the Underground, only one pigeon was left on her trail. His name was Victor. Whereas the lady might describe him as a filthy bird, grey and uninteresting with beady eyes and a cruel beak, the little boy would have paid attention to the marvellous green and purple sheen on his neck, or the fact that his feet were perfectly formed and still pink, despite walking around London's grubby streets. If he'd looked hard enough, the boy may even have noticed a softness in the pigeon's amber eyes. After all, Victor was a young pigeon and, although that meant he often lost his way, it also meant that he had not been hardened by some of the cruelty many city-dwelling pigeons face every day. Unfortunately for Victor, that was about to change.
+<!--break-->
+
+![null](img/charing-cross-cover.jpeg)
+Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
+
+<!--break-->
+
+However, two creatures you are extremely likely to find here are pigeons and mice. With so many around, it is small wonder that these rather different creatures have come to learn each other's languages. This skill proves particularly useful is when one or the other is lost and needs some directions from its land-dwelling or sky-flying companion.
+
+<!--break-->
+
+This just so happened to be the case one afternoon at Trafalgar Square, when a pigeon followed a lady into the London Underground. The lady in question wore a grumpy expression on her long, grey face. Her clothing was speckled with flecks of white. Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she had rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
+
+<!--break-->
+
+![null](img/charing-cross-cover.jpeg)
+“There's enough of these disease-riddled scumbags in London already without you feeding them, thoughtless child!”
+
+<!--break-->
+
+The little boy had begun to cry, for he had carried the crumbs with him all morning just to feed the birds. Outraged, the child's parents had rushed over to the woman, demanding she give the bread back. However, the lady held on to the bag so tightly that, when the boy's father reached over to grab it, the plastic ripped and both boy and lady were covered head to toe in crumbs.
+
+<!--break-->
+
+![null](img/charing-cross-cover.jpeg)
+
+<!--break-->
+
+At this, the boy delighted. Pigeons from all around were coming to peck bread from his laces to his hair. For the same reason, the lady was horrified. She scampered to the nearest tube station to avoid the onslaught of pigeons, feeling herself pinched and pecked by the nasty beasts. When she had descended into the depths of the Underground, only one pigeon was left on her trail. His name was Victor.
+
+<!--break-->
+<!--
+Whereas the lady might describe him as a filthy bird, grey and uninteresting with beady eyes and a cruel beak, the little boy would have paid attention to the marvellous green and purple sheen on his neck, or the fact that his feet were perfectly formed and still pink, despite walking around London's grubby streets. If he'd looked hard enough, the boy may even have noticed a softness in the pigeon's amber eyes. After all, Victor was a young pigeon and, although that meant he often lost his way, it also meant that he had not been hardened by some of the cruelty many city-dwelling pigeons face every day. Unfortunately for Victor, that was about to change.
 Despite the fact that Victor was only picking at the trail of crumbs left by this volatile woman (he had not pecked a single piece directly off her body), she waited at the bottom of the escalator to hit him with her hard handbag. Usually, it is quite difficult to hit a pigeon, but as Victor was so intent on picking up crumbs from between the gaps on the metal stairs, he was oblivious to the attack. Her bag caught his left wing and forced it to jam under the end of the track, leaving him in pain and feeling utterly helpless! One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is something of a safety hazard for people (never mind the pigeon). Nonetheless, he was grateful and managed to pull himself free, though at the expense of quite a few feathers and a very sore wing.
 By this point, the lady had vanished, no doubt to head home and have a shower after she had been in contact with so many “flying rats”. Although Victor was a young bird, he was wise enough to understand that what he had experienced was an act of violence not just on him but on all pigeon- kind. It felt utterly unfair to be in so much pain when he had done very little wrong, and as his inner-eyelids washed over his eyes (as a pigeon's do), he felt them moisten with tears. Victor was not one to feel sorry for himself, but as well as the fact that he was stuck underground with a sore wing, dodging the heavy feet of people without a fellow pigeon in sight, he also realised he was lost. A pigeon's sense of direction is largely based on flight and, now he could not fly, he was rather confused as to how he was to escape these underground tunnels. And that's when he spotted Nellie.
 Nellie is a true mouse of the underground. Her eyesight is poor from spending so much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so
@@ -36,3 +67,4 @@ Indeed, the vindictive woman had been planning her return to Trafalgar Square al
 For above her now, circling and swooping, was a flying mass of grey, purple and green. She could not possibly see Nellie riding Victor, but if she could she would wonder if anything could be more foul than a mouse atop a pigeon. The little boy, who - through adoration of the pigeons - was much more observant, was certain he had seen a tiny passenger nestled in Victor's feathers, and as he cheered the pigeons in their glorious dance, he imagined the mouse as a great leader. He could not possibly have known how right he was, for in that moment Nellie truly imagined herself as Horatio Nelson steering his HMS Victory into battle. The birds – her ships and cannons – were primed for attack, and with a rallying squeak of: “Dis...CHARGE!” the birds swooped over the woman and released their pigeon droppings so that not a patch of her was left without smatterings of white-green slime. Victor looked back as he wished to see the lady's expression, but it was impossible to read under all the gloop.
 Nellie did manage a fleeting glance backwards. Through her poor eyesight, she thought she saw the little boy walk towards the lady and offer her something: a tissue, perhaps, to wipe her face. In that moment, she remembered what Victor had said about some people not being all that bad. Flying through the air, she considered the people she had met today and thought that, actually, they weren't too different from mice after all: some heroic, some villainous, some kind, and probably lots in between. The only real difference, is that they are an awful lot bigger.
 Feeling tired from the day's adventures, and aware that Victor had a lot of catching up to do with his flock, she asked her companion to take her home. By now, Victor had grown accustomed to the underground and found that flying her back was much safer than taking the escalator. When they reached the bottom, the two friends cooed and squeaked their gratitude towards one another. Victor promised to take Nellie on trips out into the world so she could see more sights of London, and he remained true to his promise. Regular daylight seemed to do wonders for Nellie's eyesight, and flying atop Trafalgar Square did wonders for her soul. Out on their adventures, they spied many different humans, good and bad, happy and sad... but they never saw the lady at Trafalgar Square again.
+ -->
