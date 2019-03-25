@@ -1,6 +1,9 @@
 import React, { FC } from "react"
 import $ from "jquery"
-import "turn.js"
+
+if (window) {
+  require("turn.js")
+}
 
 const additionalOptions = {
   gradients: !$.isTouch,
