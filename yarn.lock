@@ -905,6 +905,13 @@
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.2.tgz#0e670ea254d559241b6eeb3894f8754991e73220"
 
+"@types/jquery@^3.3.29":
+  version "3.3.29"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.29.tgz#680a2219ce3c9250483722fccf5570d1e2d08abd"
+  integrity sha512-FhJvBninYD36v3k6c+bVk1DSZwh7B5Dpb/Pyk3HKVsiohn0nhbefZZ+3JXbWQhFyt0MxSl2jRDdGQPHeOHFXrQ==
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -932,6 +939,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-dom@^16.8.3":
+  version "16.8.3"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.3.tgz#6131b7b6158bc7ed1925a3374b88b7c00481f0cb"
+  integrity sha512-HF5hD5YR3z9Mn6kXcW1VKe4AQ04ZlZj1EdLBae61hzQ3eEWWxMgNLUbIxeZp40BnSxqY1eAYLsH9QopQcxzScA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-helmet@^5.0.8":
   version "5.0.8"
   resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-5.0.8.tgz#f080eea6652e44f60b4574463d238f268d81d9af"
@@ -944,6 +958,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+"@types/sizzle@*":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
 
 "@types/tmp@^0.0.32":
   version "0.0.32"
@@ -1847,7 +1866,7 @@ binary-extensions@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
 
-bindings@^1.3.1:
+bindings@^1.3.1, bindings@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
   dependencies:
@@ -2080,7 +2099,7 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
-cacache@^11.0.2:
+cacache@^11.0.2, cacache@^11.2.0:
   version "11.3.2"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.3.2.tgz#2d81e308e3d258ca38125b676b98b2ac9ce69bfa"
   dependencies:
@@ -3816,6 +3835,10 @@ esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
 
+esprima@substack/esprima#is-keyword:
+  version "1.1.0-dev"
+  resolved "https://codeload.github.com/substack/esprima/tar.gz/0a7f8489a11b44b019ce168506f535f22d0be290"
+
 esquery@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.0.1.tgz#406c51658b1f5991a5f9b62b1dc25b00e3e5c708"
@@ -4075,6 +4098,13 @@ extglob@^2.0.4:
 extsprintf@1.3.0, extsprintf@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+falafel@~0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/falafel/-/falafel-0.2.1.tgz#9efc51ce19ec5729086b22ae889e5d7d0e256601"
+  integrity sha1-nvxRzhnsVykIayKuiJ5dfQ4lZgE=
+  dependencies:
+    esprima substack/esprima#is-keyword
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -6275,6 +6305,11 @@ jpeg-js@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.2.0.tgz#53e448ec9d263e683266467e9442d2c5a2ef5482"
 
+jquery@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.0.tgz#44653be4e3e4628b106bf2141dfd10fbca6021ef"
+  integrity sha1-RGU75OPkYosQa/IUHf0Q+8pgIe8=
+
 jquery@>=1.10.2:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
@@ -7149,6 +7184,11 @@ name-all-modules-plugin@^1.0.1:
 nan@^2.12.1, nan@^2.9.2:
   version "2.12.1"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.12.1.tgz#7b1aa193e9aa86057e3c7bbd0ac448e770925552"
+
+nan@^2.13.1:
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.13.1.tgz#a15bee3790bde247e8f38f1d446edcdaeb05f2dd"
+  integrity sha512-I6YB/YEuDeUZMmhscXKxGgZlFnhsn5y0hgOZBadkzfTRrZBtJDZeg6eQf7PYMIEclwmorTKK8GztsyOUSVBREA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8600,7 +8640,7 @@ potrace@^2.1.1:
   dependencies:
     jimp "^0.2.24"
 
-prebuild-install@^5.2.2:
+prebuild-install@^5.2.2, prebuild-install@^5.2.5:
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-5.2.5.tgz#c7485911fe98950b7f7cd15bb9daee11b875cc44"
   dependencies:
@@ -8957,6 +8997,16 @@ react-emotion@^9.2.5:
 react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
+
+react-flip-page@^1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/react-flip-page/-/react-flip-page-1.5.7.tgz#520950efe460058e38200da56792a895c9186533"
+  integrity sha512-Yx8Qmxf+h5pbZtGQmrizfGfsi7tyztfBSVZs6TquIONGMp/rsxWmCClaJF4ci++pqF0CL0XbhVv+IglXmRfgjw==
+  dependencies:
+    prop-types "^15.6.2"
+    react "^16.8.4"
+    react-dom "^16.8.4"
+    uglifyjs-webpack-plugin "^2.0.0"
 
 react-frame-component@^4.0.2:
   version "4.1.0"
@@ -10004,6 +10054,23 @@ sharp@^0.21.3:
     tar "^4.4.8"
     tunnel-agent "^0.6.0"
 
+sharp@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.22.0.tgz#cf4cfcb019941fd06ac24555d9f5bc84536d29be"
+  integrity sha512-yInpiWYvVbE0hJylso2Q2A7QaYFBxGdSlVVHGeUf1F9JsQNAUpmaqdnX54TImgKbSCy9mQpEAoGm1pcKCZhCsQ==
+  dependencies:
+    bindings "^1.5.0"
+    color "^3.1.0"
+    detect-libc "^1.0.3"
+    fs-copy-file-sync "^1.1.1"
+    nan "^2.13.1"
+    npmlog "^4.1.2"
+    prebuild-install "^5.2.5"
+    semver "^5.6.0"
+    simple-get "^3.0.3"
+    tar "^4.4.8"
+    tunnel-agent "^0.6.0"
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -10806,6 +10873,11 @@ through@^2.3.6, through@^2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
+through@~2.2.1:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/through/-/through-2.2.7.tgz#6e8e21200191d4eb6a99f6f010df46aa1c6eb2bd"
+  integrity sha1-bo4hIAGR1OtqmfbwEN9Gqhxusr0=
+
 thunky@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.3.tgz#f5df732453407b09191dae73e2a8cc73f381a826"
@@ -10989,6 +11061,21 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
+turn.js@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/turn.js/-/turn.js-1.0.5.tgz#47fa2245cac5fd44b0b64316a26aedef6ff221a4"
+  integrity sha1-R/oiRcrF/USwtkMWomrt72/yIaQ=
+  dependencies:
+    jquery "1.12.0"
+
+turn@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/turn/-/turn-0.0.0.tgz#7cff0cf915dd3a0eb2511f5581088b2e8db1eae0"
+  integrity sha1-fP8M+RXdOg6yUR9VgQiLLo2x6uA=
+  dependencies:
+    falafel "~0.2.0"
+    through "~2.2.1"
+
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
@@ -11028,6 +11115,28 @@ uglify-js@3.4.x:
   dependencies:
     commander "~2.19.0"
     source-map "~0.6.1"
+
+uglify-js@^3.0.0:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.2.tgz#dc0c7ac2da0a4b7d15e84266818ff30e82529474"
+  integrity sha512-imog1WIsi9Yb56yRt5TfYVxGmnWs3WSGU73ieSOlMVFwhJCA9W8fqFFMMj4kgDqiS/80LGdsYnWL7O9UcjEBlg==
+  dependencies:
+    commander "~2.19.0"
+    source-map "~0.6.1"
+
+uglifyjs-webpack-plugin@^2.0.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-2.1.2.tgz#70e5c38fb2d35ee887949c2a0adb2656c23296d5"
+  integrity sha512-G1fJx2uOAAfvdZ77SVCzmFo6mv8uKaHoZBL9Qq/ciC8r6p0ANOL1uY85fIUiyWXKw5RzAaJYZfNSL58Or2hQ0A==
+  dependencies:
+    cacache "^11.2.0"
+    find-cache-dir "^2.0.0"
+    schema-utils "^1.0.0"
+    serialize-javascript "^1.4.0"
+    source-map "^0.6.1"
+    uglify-js "^3.0.0"
+    webpack-sources "^1.1.0"
+    worker-farm "^1.5.2"
 
 unbzip2-stream@^1.0.9:
   version "1.3.3"
