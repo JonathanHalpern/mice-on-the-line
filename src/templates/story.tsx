@@ -11,6 +11,12 @@ const Wrapper = styled.div`
   width: 100vw;
   background: #fff5ff;
   padding: 25px 40px;
+  h1 {
+    color: #6367a7;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2em;
+  }
 `
 
 type Props = {

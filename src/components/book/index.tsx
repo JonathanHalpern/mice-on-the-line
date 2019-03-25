@@ -25,6 +25,7 @@ const Container = styled(Turn)`
 
     box-shadow: inset 0px 0px 0px 1px #eee;
     > div {
+      height: 100%;
       padding: 45px;
       font-size: 22px;
       line-height: 28px;
