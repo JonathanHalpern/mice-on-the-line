@@ -1,8 +1,10 @@
 import React, { FC } from "react"
 import $ from "jquery"
 
-if (window) {
+try {
   require("turn.js")
+} catch (e) {
+  console.log(e)
 }
 
 const additionalOptions = {
