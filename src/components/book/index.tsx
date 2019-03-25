@@ -19,7 +19,7 @@ const Container = styled(Turn)`
   margin: 0 auto;
   user-select: none;
 
-  .page {
+  .bookPage {
     height: 100%;
     background: white;
 
@@ -31,18 +31,13 @@ const Container = styled(Turn)`
       line-height: 28px;
     }
   }
-
-  .page img {
-    max-width: 100%;
-    height: 100%;
-  }
 `
 
 const Book: FC<Props> = ({ pages }) => {
   return (
-    <Container options={options}>
+    <Container options={options} id="flipbook">
       {pages.map((page, index) => (
-        <div key={index} className={`page ${index <= 1 && "hard"}`}>
+        <div key={index} className={`bookPage ${index <= 1 && "hard"}`}>
           <div dangerouslySetInnerHTML={{ __html: page }} />
         </div>
       ))}
