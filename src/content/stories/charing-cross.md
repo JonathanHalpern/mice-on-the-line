@@ -10,9 +10,7 @@ date: '2015-06-01T22:12:03.284Z'
 ---
 # Charing Cross
 
-![null](img/charing-cross-cover.jpeg)
-
-<!--break-->
+![null](img/charing-cross-cover.jpeg)<!--break-->
 
 ![null](img/charing-cross-cover.jpeg)
 
@@ -48,35 +46,23 @@ When she had descended into the depths of the Underground, only one pigeon was l
 
 Whereas the lady might describe him as a filthy bird, grey and uninteresting with beady eyes and a cruel beak, the little boy would have paid attention to the marvellous green and purple sheen on his neck, or the fact that his feet were perfectly formed and still pink, despite walking around London's grubby streets. If he'd looked hard enough, the boy may even have noticed a softness in the pigeon's amber eyes.
 
-<!--break-->
+<!--break-->After all, Victor was a young pigeon and, although that meant he often lost his way, it also meant that he had not been hardened by some of the cruelty many city-dwelling pigeons face every day. Unfortunately for Victor, that was about to change.
 
-After all, Victor was a young pigeon and, although that meant he often lost his way, it also meant that he had not been hardened by some of the cruelty many city-dwelling pigeons face every day. Unfortunately for Victor, that was about to change.
-
-![null](img/charing-cross-cover.jpeg)
-
-<!--break-->
+![null](img/charing-cross-cover.jpeg)<!--break-->
 
 Despite the fact that Victor was only picking at the trail of crumbs left by this volatile woman (he had not pecked a single piece directly off her body), she waited at the bottom of the escalator to hit him with her hard handbag. Usually, it is quite difficult to hit a pigeon, but as Victor was so intent on picking up crumbs, he was oblivious to the attack. Her bag caught his left wing and forced it to jam under the end of the track, leaving him utterly helpless! One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is a safety hazard for humans (never mind the pigeon).
 
-<!--break-->
+<!--break-->By this point, the lady had vanished, no doubt to head home and have a shower after she had been in contact with so many “flying rats”.
 
-By this point, the lady had vanished, no doubt to head home and have a shower after she had been in contact with so many “flying rats”.
-
-![null](img/charing-cross-cover.jpeg)
-
-<!--break-->
+![null](img/charing-cross-cover.jpeg)<!--break-->
 
 Although Victor was a young bird, he was wise enough to understand that what he had experienced was an act of violence not just on him but on all pigeon-kind. It felt utterly unfair to be in so much pain when he had done very little wrong, and as his inner-eyelids washed over his eyes (as a pigeon's do), he felt them moisten with tears.
 
 Victor was not one to feel sorry for himself but, as well as the fact that he was stuck underground with a sore wing, he also realised he was lost. Now he could not fly, he had no idea how to return to the surface. And that's when he spotted Nellie.
 
-<!--break-->
+<!--break-->Nellie is a true mouse of the underground. Her eyesight is poor from spending so much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know. Nellie is just such a mouse.
 
-Nellie is a true mouse of the underground. Her eyesight is poor from spending so much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know. Nellie is just such a mouse.
-
-![null](img/charing-cross-cover.jpeg)
-
-<!--break-->
+![null](img/charing-cross-cover.jpeg)<!--break-->
 
 However, she is also a kind mouse, and upon hearing the sad coo of a pigeon, she scuttled over to see if she could help. When she was close enough, she could see that Victor had hurt his wing. She could also see that he seemed disorientated by the vast crowds walking past him. She scurried to the bird's side and squeaked, “Follow me.” The pigeon, who by this point was totally clueless, did not need telling twice.
 
