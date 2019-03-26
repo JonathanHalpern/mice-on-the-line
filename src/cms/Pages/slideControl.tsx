@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import styled from "@emotion/styled"
 
 const CommandBar = styled.div`
@@ -35,18 +35,10 @@ const SlideCommandBar = props => (
   </CommandBar>
 )
 
-const SlideControlHeader = styled.div`
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-  margin-top: 20px;
-`
-
 const SlideControl = props => {
   const MarkdownControl = CMS.getWidget("markdown").control
-  // console.log(props.total)
   return (
     <div>
-      <SlideControlHeader>Slide</SlideControlHeader>
       <SlideCommandBar {...props.commandBarActions} />
       <MarkdownControl {...props} />
     </div>

@@ -20,10 +20,7 @@ const IndexPage = ({ data }) => (
 
 export const IndexPageQuery = graphql`
   query {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 1000
-    ) {
+    allMarkdownRemark {
       edges {
         node {
           frontmatter {

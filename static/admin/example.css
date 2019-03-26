@@ -1,10 +1,28 @@
-img {
+.book-page {
+  background: white;
+  width: 470px;
+  height: 620px;
+  box-shadow: inset 0px 0px 0px 1px #eee;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.book-page > div {
+  margin: 45px;
+  width: 100%;
+}
+
+.book-page-cms > div {
+  border: 1px dashed #666;
+}
+
+.book-page img {
   max-width: 300px;
   display: block;
   margin: 0 auto;
 }
 
-p {
+.book-page p {
   font-size: 22px;
   line-height: 28px;
   margin-left: 0;
@@ -17,23 +35,9 @@ p {
   margin-bottom: 1.45rem;
 }
 
-h1 {
+.book-page h1 {
   color: #6367a7;
   text-align: center;
   margin: 0 0 80px 0;
   font-size: 46px;
-}
-
-.page-outer {
-  width: 470px;
-  height: 620px;
-  box-shadow: inset 0px 0px 0px 1px;
-  margin-bottom: 10px;
-  display: flex;
-}
-
-.page-outer > div {
-  border: 1px dashed #6367a7;
-  margin: 45px;
-  width: 100%;
 }

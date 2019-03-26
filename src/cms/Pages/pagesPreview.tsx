@@ -5,7 +5,7 @@ const defaultSeparator = "<!--break-->"
 export const PagePreview = props => {
   const MarkdownPreview = CMS.getWidget("markdown").preview
   return (
-    <div className="page-outer">
+    <div className="book-page book-page-cms">
       <MarkdownPreview {...props} />
     </div>
   )

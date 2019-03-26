@@ -6,12 +6,12 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-typescript",
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.tsx`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.tsx`,
+    //   },
+    // },
     "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     {

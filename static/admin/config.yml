@@ -16,23 +16,15 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "story"
-        preview: false
       - label: "Title"
         name: "title"
         widget: "string"
-        preview: false
       - label: "ID"
         name: "id"
         widget: "string"
-        preview: false
       - label: "Description"
         name: "description"
         widget: "string"
-        preview: false
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-        preview: false
-      - label: "Body"
+      - label: "Pages"
         name: "body"
         widget: "pages"

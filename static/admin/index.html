@@ -2,9 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Story Manager</title>
+    <title>Story Writer</title>
   </head>
   <body>
     <script type="text/javascript" src="cms.js"></script>
+    <script>
+      const PostPreview = createClass({
+        render: function() {
+          return h("div", {}, this.props.widgetFor("body"))
+        },
+      })
+      CMS.registerPreviewTemplate("stories", PostPreview)
+    </script>
   </body>
 </html>
