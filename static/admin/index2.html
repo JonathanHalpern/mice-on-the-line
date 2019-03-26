@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Story editor</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="./cms.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@<version tag>/dist/showdown.min.js"></script>
+    <script>
+      // import PostPreview from "./test.tsx"
+      // const PostPreview = require("./test.tsx")
+      const PostPreview = createClass({
+        render: function() {
+          var entry = this.props.entry
+          var body = entry.getIn(["data", "body"])
+          const pages = body.split("<!--break-->")
+          // console.log(pages)
+          // return h(
+          //   "div",
+          //   { className: "body", dangerouslySetInnerHTML: { __html: body } },
+          //   ""
+          // )
+          return h("div", { className: "text" }, this.props.widgetFor("body"))
+          // return h("div", {}, h("p", { className: "text" }, body))
+        },
+      })
+
+      CMS.registerPreviewStyle("./example.css")
+      CMS.registerPreviewTemplate("stories", PostPreview)
+    </script>
+  </body>
+</html>

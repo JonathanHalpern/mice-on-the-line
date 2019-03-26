@@ -1,13 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from "@emotion/styled"
+
+const StyledHeader = styled.header`
+  background: #f16666;
+`
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#f16666`,
-    }}
-  >
+  <StyledHeader>
     <div
       style={{
         margin: `0 auto`,
@@ -27,7 +28,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </header>
+  </StyledHeader>
 )
 
 Header.propTypes = {

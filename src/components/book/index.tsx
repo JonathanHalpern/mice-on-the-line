@@ -22,11 +22,11 @@ const Container = styled(Turn)`
   .bookPage {
     height: 100%;
     background: white;
-
+    display: flex;
     box-shadow: inset 0px 0px 0px 1px #eee;
     > div {
-      height: 100%;
-      padding: 45px;
+      width: 100%;
+      margin: 45px;
       font-size: 22px;
       line-height: 28px;
     }

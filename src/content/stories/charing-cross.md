@@ -6,8 +6,9 @@ description: >-
   Some creatures are rare in London. You are unlikely to find giraffes or
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
-date: '2015-06-01T22:12:03.284Z'
+date: "2015-06-01T22:12:03.284Z"
 ---
+
 # Charing Cross
 
 ![null](img/charing-cross-cover.jpeg)
@@ -237,7 +238,7 @@ Regular daylight seemed to do wonders for Nellie's eyesight, and flying atop Tra
 
 <!--break-->
 
-\# THE END
+# THE END
 
 <!--break-->
 
