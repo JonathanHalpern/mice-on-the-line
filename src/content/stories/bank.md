@@ -10,3 +10,4 @@ More story here<!--break-->
 ![null](img/bank-cover.jpeg)
 
 story goes here
+<!--break-->1<!--break-->2<!--break-->3<!--break-->4
