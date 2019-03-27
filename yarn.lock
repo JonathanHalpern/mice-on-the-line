@@ -3744,11 +3744,6 @@ eslint-plugin-jsx-a11y@^6.0.3:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
-eslint-plugin-react-hooks@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.6.0.tgz#348efcda8fb426399ac7b8609607c7b4025a6f5f"
-  integrity sha512-lHBVRIaz5ibnIgNG07JNiAuBUeKhEf8l4etNx5vfAEwqQ5tcuK3jV9yjmopPgQDagQb7HwIuQVsE3IVcGrRnag==
-
 eslint-plugin-react@^7.8.2:
   version "7.12.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.12.4.tgz#b1ecf26479d61aee650da612e425c53a99f48c8c"
@@ -11055,10 +11050,9 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-turn.js@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/turn.js/-/turn.js-1.0.5.tgz#47fa2245cac5fd44b0b64316a26aedef6ff221a4"
-  integrity sha1-R/oiRcrF/USwtkMWomrt72/yIaQ=
+"turn.js@https://github.com/rizalibnu/turn.js.git":
+  version "2.0.0"
+  resolved "https://github.com/rizalibnu/turn.js.git#695c661c1f8f3ecf18b2a36f361e32167a57dcf2"
   dependencies:
     jquery "1.12.0"
 

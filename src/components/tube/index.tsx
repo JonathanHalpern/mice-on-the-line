@@ -26,7 +26,6 @@ const nullStation = {
 const Tube = ({ storiesMeta }) => {
   const [hoveredSation, setHoveredStation] = useState(nullStation)
   const story = storiesMeta.find(story => story.id === hoveredSation.id)
-  console.log(story)
   return (
     <SvgWrapper>
       <StyledSvg width="100%" viewBox="400 332 300 200">

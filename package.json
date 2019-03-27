@@ -30,7 +30,7 @@
     "react-flip-page": "^1.5.7",
     "react-helmet": "^5.2.0",
     "sharp": "^0.22.0",
-    "turn.js": "^1.0.5",
+    "turn.js": "https://github.com/rizalibnu/turn.js.git",
     "typescript": "^3.3.3333"
   },
   "devDependencies": {

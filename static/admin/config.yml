@@ -10,6 +10,8 @@ collections:
     label: "Author"
     folder: "src/content/author"
     create: false
+    editor:
+      preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: "Template Key"
@@ -21,7 +23,7 @@ collections:
         widget: "string"
       - label: "About me"
         name: "body"
-        widget: "pages"
+        widget: "markdown"
   - name: "stories"
     label: "Story"
     folder: "src/content/stories"
