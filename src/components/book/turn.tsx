@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import React from "react"
 import $ from "jquery"
 
 try {
@@ -51,7 +51,7 @@ class Turn extends React.Component {
       <div
         style={Object.assign({}, this.props.style)}
         ref={el => (this.el = el)}
-        className={`hard ${this.props.className}`}
+        className={`${this.props.className}`}
       >
         {this.props.children}
       </div>

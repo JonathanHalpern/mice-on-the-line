@@ -6,9 +6,13 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import SEO from "../components/seo"
 
+const Outer = styled.div`
+  overflow: hidden;
+`
+
 const Wrapper = styled.div`
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   background: #fff5ff;
   padding: 25px 40px;
   h1 {
@@ -43,7 +47,7 @@ class BlogPostTemplate extends React.Component<Props> {
     const pages = post.html.split("<!--break-->")
 
     return (
-      <>
+      <Outer>
         <Header siteTitle={this.props.data.site.siteMetadata.title} />
         <Wrapper>
           <SEO
@@ -53,7 +57,7 @@ class BlogPostTemplate extends React.Component<Props> {
 
           <Book pages={pages} />
         </Wrapper>
-      </>
+      </Outer>
     )
   }
 }
