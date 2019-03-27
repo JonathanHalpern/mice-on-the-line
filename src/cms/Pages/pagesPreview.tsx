@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React, { FC } from "react"
 
 const defaultSeparator = "<!--break-->"
 
-export const PagePreview = props => {
+const PagePreview: FC = props => {
   const MarkdownPreview = CMS.getWidget("markdown").preview
   return (
     <div className="book-page book-page-cms">
@@ -11,7 +11,11 @@ export const PagePreview = props => {
   )
 }
 
-const PagesPreview = props => {
+type PagesProps = {
+  value: string
+}
+
+const PagesPreview: FC<PagesProps> = props => {
   const markdown = props.value
   const pagesMarkdown = markdown.split(defaultSeparator)
 

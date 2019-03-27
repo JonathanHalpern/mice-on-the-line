@@ -3,7 +3,8 @@
     "rxjs-tslint-rules",
     "tslint:recommended",
     "tslint-react",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "tslint-react-hooks"
   ],
   "rules": {
     "interface-name": [true, "never-prefix"],
@@ -14,7 +15,8 @@
     "rxjs-no-patched": [true, "never-prefix"],
     "no-empty-interface": [false],
     "object-literal-sort-keys": [false],
-    "jsx-no-lambda": [false]
+    "jsx-no-lambda": [false],
+    "react-hooks-nesting": "error"
   },
   "linterOptions": {
     "exclude": ["config/**/*.js", "node_modules/**/*.ts"]

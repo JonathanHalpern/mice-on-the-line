@@ -1,5 +1,9 @@
-import React from "react"
+import React, { Component, FC } from "react"
 import styled from "@emotion/styled"
+
+const ControlWrapper = styled.div`
+  /* height: 620px; */
+`
 
 const CommandBar = styled.div`
   display: flex;
@@ -21,7 +25,15 @@ const CommandBarButton = styled.button`
   }
 `
 
-const SlideCommandBar = props => (
+type CommandBarActions = {
+  createSlideAbove: () => void
+  createSlideBelow: () => void
+  deleteSlide: () => void
+  moveSlideUp: () => void
+  moveSlideDown: () => void
+}
+
+const SlideCommandBar: FC<CommandBarActions> = props => (
   <CommandBar>
     <CommandBarButton onClick={props.createSlideAbove}>
       + Above
@@ -35,13 +47,21 @@ const SlideCommandBar = props => (
   </CommandBar>
 )
 
-const SlideControl = props => {
+type Props = {
+  commandBarActions: CommandBarActions
+  onChange: (value: any) => void
+  value: string
+}
+
+const SlideControl: FC<Props> = props => {
   const MarkdownControl = CMS.getWidget("markdown").control
+
   return (
-    <div>
+    <ControlWrapper>
+      <hr />
       <SlideCommandBar {...props.commandBarActions} />
       <MarkdownControl {...props} />
-    </div>
+    </ControlWrapper>
   )
 }
 

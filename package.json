@@ -30,7 +30,6 @@
     "react-flip-page": "^1.5.7",
     "react-helmet": "^5.2.0",
     "sharp": "^0.22.0",
-    "turn": "^0.0.0",
     "turn.js": "^1.0.5",
     "typescript": "^3.3.3333"
   },
@@ -39,7 +38,8 @@
     "@types/react-dom": "^16.8.3",
     "@types/react-helmet": "^5.0.8",
     "gatsby-plugin-tslint": "^0.0.2",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "tslint-react-hooks": "^2.0.0"
   },
   "keywords": [
     "gatsby"
