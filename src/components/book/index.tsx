@@ -23,13 +23,13 @@ const Container = styled(Turn)`
 
 const Book: FC<Props> = ({ pages }) => {
   return (
-    <Container options={options} id="flipbook">
+    <Turn options={options}>
       {pages.map((page, index) => (
         <div key={index} className={`book-page ${index <= 1 && "hard"}`}>
           <div dangerouslySetInnerHTML={{ __html: page }} />
         </div>
       ))}
-    </Container>
+    </Turn>
   )
 }
 

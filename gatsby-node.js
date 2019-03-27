@@ -1,5 +1,14 @@
 const path = require(`path`)
 
+const getTemplate = templateKey => {
+  switch (templateKey) {
+    case "story":
+      return path.resolve(`src/templates/story.tsx`)
+    default:
+      return false
+  }
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/story.tsx`)
@@ -11,6 +20,7 @@ exports.createPages = ({ graphql, actions }) => {
             frontmatter {
               title
               id
+              templateKey
             }
           }
         }
@@ -20,16 +30,18 @@ exports.createPages = ({ graphql, actions }) => {
     if (result.errors) {
       throw result.errors
     }
-
     result.data.allMarkdownRemark.edges.forEach(edge => {
-      const { id } = edge.node.frontmatter
-      createPage({
-        path: `/${id}`,
-        component: blogPostTemplate,
-        context: {
-          id,
-        },
-      })
+      const { id, templateKey } = edge.node.frontmatter
+      const component = getTemplate(templateKey)
+      if (component) {
+        createPage({
+          path: `/${id}`,
+          component,
+          context: {
+            id,
+          },
+        })
+      }
     })
   })
 }
