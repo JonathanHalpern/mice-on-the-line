@@ -2,7 +2,7 @@ import React, { Component, FC } from "react"
 import styled from "@emotion/styled"
 
 const ControlWrapper = styled.div`
-  /* height: 620px; */
+  height: 620px;
 `
 
 const CommandBar = styled.div`
