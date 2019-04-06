@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
   background: #fff5ff;
-  padding: 25px 40px;
+  padding: 15px 40px;
   h1 {
     color: #6367a7;
     text-align: center;

@@ -1,38 +1,51 @@
-import React, { FC } from "react"
+import React, { FC, useState, useEffect } from "react"
 import styled from "@emotion/styled"
+import { Spring } from "react-spring/renderprops"
 
 import mouse from "../../images/mouse-outline.png"
-
-const StyledImage = styled.image`
-  @keyframes example {
-    0% {
-      width: 10px;
-      transform: translate(0px, 0px);
-    }
-    50% {
-      width: 14px;
-      transform: translate(-2px, -2px);
-    }
-    100% {
-      width: 10px;
-      transform: translate(0px, 0px);
-    }
-  }
-  width: 10px;
-  transform: translate(0px, 0px);
-  animation-timing-function: ease-in-out;
-  animation-name: example;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-`
 
 type Props = {
   x: number
   y: number
 }
 
+const length = 12
+
 const Tube: FC<Props> = ({ x, y }) => {
-  return <StyledImage xlinkHref={mouse} x={x} y={y} />
+  const [resetAnimation, setResetAnimation] = useState(false)
+  const [isReversed, setIsReversed] = useState(false)
+
+  return (
+    <Spring
+      config={{ mass: 1, tension: 120, friction: 14 }}
+      from={{ stretch: 1 }}
+      to={{ stretch: 1.5 }}
+      reset={resetAnimation}
+      reverse={isReversed}
+      onRest={() => {
+        setIsReversed(!isReversed)
+        setResetAnimation(false)
+        setResetAnimation(true)
+      }}
+    >
+      {props => {
+        {
+          const stretch = props.stretch * length
+          const shift = ((props.stretch - 1) * length) / 2
+          return (
+            <image
+              xlinkHref={mouse}
+              height={stretch}
+              width={stretch}
+              transform={`translate(${-shift}, ${-shift})`}
+              x={x}
+              y={y}
+            />
+          )
+        }
+      }}
+    </Spring>
+  )
 }
 
 export default Tube
