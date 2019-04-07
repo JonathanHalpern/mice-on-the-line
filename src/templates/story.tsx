@@ -12,7 +12,7 @@ const Outer = styled.div`
 
 const Wrapper = styled.div`
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   background: #fff5ff;
   padding: 15px 40px;
   h1 {
