@@ -21,9 +21,7 @@ However, two creatures you are extremely likely to find here are pigeons and mic
 
 This just so happened to be the case one afternoon at Trafalgar Square, when a pigeon followed a lady into the London Underground. The lady in question wore a grumpy expression on her long, grey face. Her clothing was speckled with flecks of white.
 
-<!--break-->
-
-![null](img/charing-cross-cover.jpeg)
+<!--break-->![null](img/charing-cross-cover.jpeg)
 
 Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she had rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
 
