@@ -40,11 +40,6 @@
   font-size: 46px;
 }
 
-#___gatsby {
-  height: 100%;
-  > div {
-    > div {
-      height: 100%;
-    }
-  }
+.book-page .justify-line {
+  text-align-last: justify;
 }
