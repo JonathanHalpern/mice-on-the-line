@@ -53,7 +53,7 @@ Despite the fact that Victor was only picking at the trail of crumbs left by thi
 
 Victor was not one to feel sorry for himself but, as well as the fact that he was stuck underground with a sore wing, he also realised he was lost. Now he could not fly, he had no idea how to return to the surface. And that's when he spotted Nellie.
 
-<span class="justify-line">Nellie is a true mouse of the underground. Her eyesight is poor from spending so</span><!--break-->much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know. Nellie is just such a mouse.
+<p class="justify-line">Nellie is a true mouse of the underground. Her eyesight is poor from spending so</p><!--break-->much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know. Nellie is just such a mouse.
 
 ![null](img/charing-cross-cover.jpeg)<!--break-->
 
