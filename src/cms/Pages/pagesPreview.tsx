@@ -2,11 +2,16 @@ import React, { FC } from "react"
 
 const defaultSeparator = "<!--break-->"
 
-const PagePreview: FC = props => {
+type PagePreview = {
+  index: number
+}
+
+const PagePreview: FC<PagePreview> = props => {
   const MarkdownPreview = CMS.getWidget("markdown").preview
   return (
     <div className="book-page book-page-cms">
       <MarkdownPreview {...props} />
+      {props.index !== 0 && <span className="page-number">{props.index}</span>}
     </div>
   )
 }
@@ -20,12 +25,16 @@ const PagesPreview: FC<PagesProps> = props => {
   const pagesMarkdown = markdown.split(defaultSeparator)
 
   return (
-    <div>
-      {pagesMarkdown.map((pageMarkdown, i) => {
-        const newProps = { ...props, value: pageMarkdown }
-        return <PagePreview {...newProps} key={i} />
+    <>
+      {pagesMarkdown.map((pageMarkdown, index) => {
+        const newProps = { ...props, value: pageMarkdown, index }
+        return (
+          <>
+            <PagePreview {...newProps} key={index} />
+          </>
+        )
       })}
-    </div>
+    </>
   )
 }
 

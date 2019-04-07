@@ -3,6 +3,12 @@ import { SlideControl } from "."
 
 const defaultSeparator = "<!--break-->"
 
+const mdSeperator = `
+
+${defaultSeparator}
+
+`
+
 let key = 0
 
 const createNewSlide = () => ({
@@ -81,8 +87,11 @@ export default class PagesControl extends Component<Props, State> {
     const newPageObjects = this.state.pageObjects.slice()
     newPageObjects[i].page = value
     const updatedStory = newPageObjects
-      .map(pageObjects => pageObjects.page)
-      .join(defaultSeparator)
+      .map(pageObject => {
+        console.log(pageObject.page.trim())
+        return pageObject.page.trim()
+      })
+      .join(mdSeperator)
     this.props.onChange(updatedStory)
     this.setState({
       pageObjects: newPageObjects,
@@ -93,8 +102,11 @@ export default class PagesControl extends Component<Props, State> {
     return getSlideActions(
       (newSlides: pageObject[]) => {
         const updatedStory = newSlides
-          .map(pageObject => pageObject.page)
-          .join(defaultSeparator)
+          .map(pageObject => {
+            console.warn(pageObject.page.trim())
+            return pageObject.page.trim()
+          })
+          .join(mdSeperator)
         this.props.onChange(updatedStory)
         this.setState({ pageObjects: newSlides })
       },

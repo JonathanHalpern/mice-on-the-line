@@ -1,6 +1,6 @@
 import React, { FC } from "react"
 import styled from "@emotion/styled"
-import "../../../static/admin/example.css"
+import "../../../static/admin/page.css"
 
 import Turn from "./turn"
 
@@ -45,6 +45,7 @@ const Book: FC<Props> = ({ pages }) => {
             "hard"}`}
         >
           <div dangerouslySetInnerHTML={{ __html: page }} />
+          {index !== 0 && <span className="page-number">{index}</span>}
         </div>
       ))}
     </Container>

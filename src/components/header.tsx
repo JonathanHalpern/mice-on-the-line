@@ -5,6 +5,8 @@ import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
   background: #f16666;
+  position: fixed;
+  width: 100%;
 `
 
 const Header = ({ siteTitle }) => (

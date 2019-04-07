@@ -29,6 +29,7 @@
     "react-dom": "^16.8.4",
     "react-flip-page": "^1.5.7",
     "react-helmet": "^5.2.0",
+    "react-scrolllock": "^4.0.1",
     "react-spring": "^8.0.19",
     "sharp": "^0.22.0",
     "turn.js": "https://github.com/rizalibnu/turn.js.git",

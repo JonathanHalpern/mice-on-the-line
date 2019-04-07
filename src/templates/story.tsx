@@ -11,11 +11,12 @@ const Outer = styled.div`
 `
 
 const Wrapper = styled.div`
-  width: 100vw;
+  /* width: 100vw;
   /* height: 100vh; */
+  height: 100%;
   background: #fff5ff;
   padding: 15px 40px;
-  h1 {
+  */ h1 {
     color: #6367a7;
     text-align: center;
     margin-bottom: 80px;
@@ -45,10 +46,11 @@ class BlogPostTemplate extends React.Component<Props> {
   render() {
     const post = this.props.data.markdownRemark
     const pages = post.html.split("<!--break-->")
+    console.log(post.html)
+    console.log(pages)
 
     return (
-      <Outer>
-        <Header siteTitle={this.props.data.site.siteMetadata.title} />
+      <Layout>
         <Wrapper>
           <SEO
             title={post.frontmatter.title}
@@ -57,7 +59,7 @@ class BlogPostTemplate extends React.Component<Props> {
 
           <Book pages={pages} />
         </Wrapper>
-      </Outer>
+      </Layout>
     )
   }
 }
