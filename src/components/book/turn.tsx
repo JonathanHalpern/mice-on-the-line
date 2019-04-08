@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import $ from "jquery"
 
 try {
@@ -11,7 +11,14 @@ const additionalOptions = {
   gradients: !$.isTouch,
 }
 
-class Turn extends React.Component {
+type Props = {
+  style: {}
+  options: {}
+  className: string
+  onPageTurn: (value: any) => void
+}
+
+class Turn extends Component<Props> {
   static defaultProps = {
     style: {},
     className: "",
@@ -19,10 +26,14 @@ class Turn extends React.Component {
   }
 
   componentDidMount() {
+    console.log(this.props)
     if (this.el) {
       $(this.el).turn(
         Object.assign({}, { ...this.props.options, ...additionalOptions })
       )
+      $(this.el).bind("turning", (event, page, view) => {
+        this.props.onPageTurn(page)
+      })
     }
 
     document.addEventListener("keydown", this.handleKeyDown, false)
@@ -32,6 +43,7 @@ class Turn extends React.Component {
     if (this.el) {
       $(this.el)
         .turn("destroy")
+        .unbind()
         .remove()
     }
     document.removeEventListener("keydown", this.handleKeyDown, false)

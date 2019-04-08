@@ -1,4 +1,4 @@
-import React, { FC } from "react"
+import React, { FC, useState } from "react"
 import styled from "@emotion/styled"
 import "../../../static/admin/page.css"
 
@@ -28,7 +28,7 @@ const options = {
   elevation: 50,
 }
 
-const Container = styled(Turn)<TurnProps>`
+const Container = styled.div`
   margin: 0 auto;
   user-select: none;
   .page-wrapper {
@@ -49,18 +49,22 @@ const Container = styled(Turn)<TurnProps>`
 `
 
 const Book: FC<Props> = ({ pages }) => {
+  const [activePage, setActivePage] = useState(0)
+  console.log(activePage)
   return (
-    <Container options={options}>
-      {pages.map((page, index) => (
-        <div
-          key={index}
-          className={`book-page ${(index <= 1 || index >= pages.length - 2) &&
-            "hard"}`}
-        >
-          <div dangerouslySetInnerHTML={{ __html: page }} />
-          {index !== 0 && <span className="page-number">{index}</span>}
-        </div>
-      ))}
+    <Container>
+      <Turn options={options} onPageTurn={setActivePage}>
+        {pages.map((page, index) => (
+          <div
+            key={index}
+            className={`book-page ${(index <= 1 || index >= pages.length - 2) &&
+              "hard"}`}
+          >
+            <div dangerouslySetInnerHTML={{ __html: page }} />
+            {index !== 0 && <span className="page-number">{index}</span>}
+          </div>
+        ))}
+      </Turn>
     </Container>
   )
 }
