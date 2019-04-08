@@ -8,6 +8,18 @@ type Props = {
   pages: string[]
 }
 
+type Options = {
+  width: number
+  height: number
+  display: string
+  acceleration: boolean
+  elevation: number
+}
+
+type TurnProps = {
+  options: Options
+}
+
 const options = {
   width: 940,
   height: 620,
@@ -16,11 +28,12 @@ const options = {
   elevation: 50,
 }
 
-const Container = styled(Turn)`
+const Container = styled(Turn)<TurnProps>`
   margin: 0 auto;
   user-select: none;
   .page-wrapper {
     perspective: 3000px;
+    cursor: pointer;
   }
 
   .even {

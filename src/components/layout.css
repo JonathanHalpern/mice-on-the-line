@@ -631,8 +631,3 @@ pre tt:after {
 #___gatsby > div {
   height: 100%;
 }
-
-#___gatsby > div > main {
-  height: 100%;
-  padding-top: 48px;
-}

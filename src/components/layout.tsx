@@ -1,20 +1,28 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React, { FC } from "react"
-import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { Global, css } from "@emotion/core"
+import styled from "@emotion/styled"
 
 import Header from "./header"
 import ScrollLock from "react-scrolllock"
 import "./layout.css"
 
-const Layout: FC = ({ children }) => (
+const OuterWrapper = styled.main<Props>`
+  background: #fff5ff;
+  height: 100%;
+  padding-top: 48px;
+  ${({ isScrollLockActive }) => !isScrollLockActive && `overflow-y: scroll`}
+`
+
+const Wrapper = styled.div`
+  max-width: 940px;
+  margin: 15px auto;
+`
+type Props = {
+  isScrollLockActive: boolean
+}
+
+const Layout: FC<Props> = ({ children, isScrollLockActive }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -26,7 +34,7 @@ const Layout: FC = ({ children }) => (
       }
     `}
     render={data => (
-      <ScrollLock>
+      <ScrollLock isActive={isScrollLockActive}>
         <Global
           styles={css`
             * {
@@ -38,15 +46,12 @@ const Layout: FC = ({ children }) => (
           `}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
-
-        <main>{children}</main>
+        <OuterWrapper isScrollLockActive={isScrollLockActive}>
+          <Wrapper>{children}</Wrapper>
+        </OuterWrapper>
       </ScrollLock>
     )}
   />
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout

@@ -3,26 +3,7 @@ import styled from "@emotion/styled"
 import { graphql } from "gatsby"
 import Book from "../components/book"
 import Layout from "../components/layout"
-import Header from "../components/header"
 import SEO from "../components/seo"
-
-const Outer = styled.div`
-  overflow: hidden;
-`
-
-const Wrapper = styled.div`
-  /* width: 100vw;
-  /* height: 100vh; */
-  height: 100%;
-  background: #fff5ff;
-  padding: 15px 40px;
-  */ h1 {
-    color: #6367a7;
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 46px;
-  }
-`
 
 type Props = {
   data: {
@@ -46,19 +27,15 @@ class BlogPostTemplate extends React.Component<Props> {
   render() {
     const post = this.props.data.markdownRemark
     const pages = post.html.split("<!--break-->")
-    console.log(post.html)
-    console.log(pages)
 
     return (
-      <Layout>
-        <Wrapper>
-          <SEO
-            title={post.frontmatter.title}
-            description={post.frontmatter.description || post.excerpt}
-          />
+      <Layout isScrollLockActive>
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+        />
 
-          <Book pages={pages} />
-        </Wrapper>
+        <Book pages={pages} />
       </Layout>
     )
   }

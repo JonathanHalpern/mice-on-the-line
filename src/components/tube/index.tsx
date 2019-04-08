@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, FC } from "react"
 import styled from "@emotion/styled"
 
 import River from "./river"
@@ -7,6 +7,8 @@ import StationNames from "./stationNames"
 import InterchangeCircles from "./interchangeCircles"
 import StoryPreview from "./storyPreview"
 import Icons from "./icons"
+
+import { Story } from "../../../types"
 
 const SvgWrapper = styled.div`
   width: 100%;
@@ -23,7 +25,11 @@ const nullStation = {
   y: 0,
 }
 
-const Tube = ({ storiesMeta }) => {
+type Props = {
+  storiesMeta: Story[]
+}
+
+const Tube: FC<Props> = ({ storiesMeta }) => {
   const [hoveredSation, setHoveredStation] = useState(nullStation)
   const story = storiesMeta.find(story => story.id === hoveredSation.id)
   return (
@@ -34,7 +40,7 @@ const Tube = ({ storiesMeta }) => {
         <StationNames />
         <InterchangeCircles />
         <Icons mouseOver={setHoveredStation} />
-        {hoveredSation.id && (
+        {story && (
           <StoryPreview
             storyId={hoveredSation.id}
             storyTitle={story.title}
