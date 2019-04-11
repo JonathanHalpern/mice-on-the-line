@@ -16,10 +16,6 @@ type Options = {
   elevation: number
 }
 
-type TurnProps = {
-  options: Options
-}
-
 const options = {
   width: 940,
   height: 620,

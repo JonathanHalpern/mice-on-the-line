@@ -17,7 +17,6 @@ type Props = {
 const IndexPage: FC<Props> = ({ data }) => (
   <Layout isScrollLockActive={false}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h2>Click on a mouse to read their story</h2>
     <Container>
       <Tube
         storiesMeta={data.allMarkdownRemark.edges.map(
@@ -37,6 +36,8 @@ export const IndexPageQuery = graphql`
             title
             id
             description
+            x
+            y
           }
         }
       }

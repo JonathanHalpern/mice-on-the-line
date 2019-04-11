@@ -32,14 +32,15 @@ type Props = {
 const Tube: FC<Props> = ({ storiesMeta }) => {
   const [hoveredSation, setHoveredStation] = useState(nullStation)
   const story = storiesMeta.find(story => story.id === hoveredSation.id)
+  console.log(storiesMeta)
   return (
     <SvgWrapper>
-      <StyledSvg width="100%" viewBox="400 332 300 200">
+      <StyledSvg width="100%" viewBox="430 375 270 150">
         <River />
         <Lines />
         <StationNames />
         <InterchangeCircles />
-        <Icons mouseOver={setHoveredStation} />
+        <Icons mouseOver={setHoveredStation} stations={storiesMeta} />
         {story && (
           <StoryPreview
             storyId={hoveredSation.id}

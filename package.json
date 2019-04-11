@@ -42,7 +42,13 @@
     "@types/react-helmet": "^5.0.8",
     "gatsby-plugin-tslint": "^0.0.2",
     "prettier": "^1.16.4",
-    "tslint-react-hooks": "^2.0.0"
+    "tslint-react-hooks": "^2.0.0",
+    "@storybook/react": "^5.0.6",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-links": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5"
   },
   "keywords": [
     "gatsby"
@@ -54,7 +60,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",

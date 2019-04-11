@@ -4,6 +4,8 @@ const getTemplate = templateKey => {
   switch (templateKey) {
     case "story":
       return path.resolve(`src/templates/story.tsx`)
+    case "plain":
+      return path.resolve(`src/templates/plain.tsx`)
     default:
       return false
   }
@@ -11,7 +13,6 @@ const getTemplate = templateKey => {
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const blogPostTemplate = path.resolve(`src/templates/story.tsx`)
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {

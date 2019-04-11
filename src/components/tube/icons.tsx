@@ -2,57 +2,30 @@ import React, { FC } from "react"
 
 import MouseIcon from "./mouseIcon"
 
-type Props = {
-  mouseOver: (hoverEvent: StationHover) => void
-}
-
-type StationHover = {
+type Station = {
   id: string
   x: number
   y: number
 }
 
-const data = [
-  {
-    x: 530,
-    y: 480.5,
-    id: "charing-cross",
-  },
-  {
-    x: 530,
-    y: 452.5,
-    id: "leicester-square",
-  },
-  {
-    x: 541,
-    y: 440.5,
-    id: "covent-garden",
-  },
-  {
-    x: 489.5,
-    y: 427,
-    id: "oxford-circus",
-  },
-  {
-    x: 620.5,
-    y: 447,
-    id: "bank",
-  },
-]
+type Props = {
+  stations: Station[]
+  mouseOver: (hoverEvent: Station) => void
+}
 
-const Icons: FC<Props> = ({ mouseOver }) => (
+const Icons: FC<Props> = ({ mouseOver, stations }) => (
   <g id="icons">
-    {data.map(icon => (
+    {stations.map(station => (
       <g
-        key={icon.id}
+        key={station.id}
         onMouseEnter={() => {
-          mouseOver(icon)
+          mouseOver(station)
         }}
         onClick={() => {
-          mouseOver(icon)
+          mouseOver(station)
         }}
       >
-        <MouseIcon x={icon.x} y={icon.y} />
+        <MouseIcon x={station.x} y={station.y} />
       </g>
     ))}
   </g>

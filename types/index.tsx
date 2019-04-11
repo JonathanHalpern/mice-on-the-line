@@ -2,6 +2,8 @@ export type Story = {
   id: string
   title: string
   description: string
+  x: number
+  y: number
 }
 
 export type StoryEdge = {
