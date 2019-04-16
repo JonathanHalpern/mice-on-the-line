@@ -7,9 +7,8 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-y: 480.5
+'y': 480.5
 ---
-
 # Charing Cross
 
 ![](/img/charing-cross-cover.jpeg)
@@ -30,7 +29,7 @@ This just so happened to be the case one afternoon at Trafalgar Square, when a p
 
 ![null](/img/charing-cross-cover.jpeg)
 
-Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she had rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
+Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
 
 <!--break-->
 
@@ -112,17 +111,21 @@ Unlike people, mice and pigeons do not need to do all that much to get ready in 
 
 At first, Nellie perched awkwardly on Victor, scared to hurt her friend's newly recovered wing, but Victor ruffled his feathers around the little mouse, creating a comfy seat.
 
+He reassured her that his wing was good as new and, when the mouse was ready (or  as ready as she would ever be), the two friends took flight!
+
 <!--break-->
 
 ![null](img/charing-cross-cover.jpeg)
 
-He reassured her that his wing was good as new and, when the mouse was ready (or as ready as she would ever be), the two friends took flight!
 
-At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, avoiding people's footsteps, mousetraps and even the monstrous trains themselves, nothing could have prepared her for the sensation of flying six feet up in the air, with billboards and lights whooshing past at speeds unable to be reached by the small feet of a mouse. She had known this world all her life from the ground up and here she was, seeing it all rush beneath her. It was quite dizzying.
+
+At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, avoiding people's footsteps, mousetraps and even the monstrous trains themselves, nothing could have prepared her for the sensation of flying six feet up in the air.
 
 <!--break-->
 
-However, she soon began to get used to the sensation and this is when she started noticing people's faces. From the ground and with her poor eyesight, she had only ever been aware of the differences between people's shoes: she must avoid the heavy working boots because getting stomped by one of those would mean certain death; stilettos are particularly dangerous for chopping off a mouse's tail; small toddlers' feet might not be lethal, but a mouse can never be sure if they will move in a logical pattern.
+Billboards and lights whooshed past at speeds unable to be reached by the small feet of a mouse. She had known this world all her life from the ground up and now here she was, seeing it all rush beneath her. It was quite dizzying.
+
+However, soon she settled into her seat and began noticing people's faces. From the ground (and because of her poor eyesight) she had only ever been aware of the differences between people's shoes: she must avoid the heavy working boots because getting stomped by one of those would mean certain death; stilettos are particularly dangerous for chopping off a mouse's tail; small toddlers' feet might not be lethal, but a mouse can never be sure if they will move in a logical pattern.
 
 <!--break-->
 
@@ -135,7 +138,7 @@ Victor asked if she was alright, and Nellie squeaked that she was fine, though h
 
 ![null](img/charing-cross-cover.jpeg)
 
-She closed her eyes for the final few moments on the underground and felt, rather than saw, fresh air flatten the fur on her cheek and back. Her tail felt the wind, and it felt good. Slowly, very slowly because her eyes were not accustomed to the brightness, Nellie opened her eyelids. And what a sight to behold!
+She closed her eyes for the final few moments on the underground and felt, rather than saw, fresh air flatten the fur on her cheek and back. Slowly, very slowly because her eyes were not accustomed to the brightness, Nellie opened her eyelids. And what a sight to behold!
 
 <!--break-->
 
@@ -147,7 +150,7 @@ And there in front of her, cutting through that great blue sky, was the single t
 
 ![null](img/charing-cross-cover.jpeg)
 
-I suppose that might not be saying much for a mouse who has spent her life living in the confines of the London Underground, so let's try that again: This was the single tallest thing Nellie could ever have imagined. She squeaked in delight, “Victor, Victor! What is that magnificent building?”
+That might not be saying much for a mouse who's spent her life living in the confines of the underground, so let's try that again: This was the single tallest thing Nellie could _ever have imagined._ She squeaked in delight, “Victor, Victor! What is that magnificent building?”
 
 <!--break-->
 
