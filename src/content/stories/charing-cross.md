@@ -53,29 +53,29 @@ Whereas the lady might describe him as a filthy bird, grey and uninteresting wit
 
 After all, Victor was a young pigeon and, although that meant he often lost his way, it also meant that he had not been hardened by some of the cruelty many city-dwelling pigeons face every day. Unfortunately for Victor, that was about to change.
 
-![null](img/charing-cross-cover.jpeg)
+Despite the fact that Victor was only picking at the trail of crumbs left by this volatile woman (he had not pecked a single piece from her body), she waited at the bottom of the escalator to hit him with her hard handbag. Usually it is difficult to hit a pigeon but, as Victor was so intent on picking up crumbs, he was oblivious to the attack. Her bag caught his left wing and forced it to jam under the end of the track, leaving him utterly helpless!
 
 <!--break-->
 
-Despite the fact that Victor was only picking at the trail of crumbs left by this volatile woman (he had not pecked a single piece directly off her body), she waited at the bottom of the escalator to hit him with her hard handbag. Usually, it is quite difficult to hit a pigeon, but as Victor was so intent on picking up crumbs, he was oblivious to the attack. Her bag caught his left wing and forced it to jam under the end of the track, leaving him utterly helpless! One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is a safety hazard for humans (never mind the pigeon).
+![null](img/charing-cross-cover.jpeg)
+
+One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is a safety hazard for humans (never mind the pigeon).
 
 <!--break-->
 
 By this point, the lady had vanished, no doubt to head home and have a shower after she had been in contact with so many “flying rats”.
 
-![null](img/charing-cross-cover.jpeg)
+Although Victor was a young bird, he was wise enough to understand that what he had experienced was an act of violence not just on him but on all pigeon-kind. It felt utterly unfair to be in so much pain when he had done very little wrong, and as his inner-eyelids washed over his eyes (as a pigeon's do), he felt them moisten with tears.
 
 <!--break-->
-
-Although Victor was a young bird, he was wise enough to understand that what he had experienced was an act of violence not just on him but on all pigeon-kind. It felt utterly unfair to be in so much pain when he had done very little wrong, and as his inner-eyelids washed over his eyes (as a pigeon's do), he felt them moisten with tears.
 
 Victor was not one to feel sorry for himself but, as well as the fact that he was stuck underground with a sore wing, he also realised he was lost. Now he could not fly, he had no idea how to return to the surface. And that's when he spotted Nellie.
 
-<p class="justify-line">Nellie is a true mouse of the underground. Her eyesight is poor from spending so</p>
+Nellie is a true mouse of the underground. Her eyesight is poor from spending so much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know.
 
 <!--break-->
 
-much of her life in tunnels or under train tracks, and she has never ventured outside. This might sound surprising, but the life of a mouse is quite dangerous with so many people stomping around, so many mice decide to stick to the routes they know. Nellie is just such a mouse.
+Nellie is just such a mouse.
 
 ![null](img/charing-cross-cover.jpeg)
 
@@ -168,9 +168,11 @@ Within seconds they were perched on the shoulder of Horatio Nelson: one of the g
 
 Victor promised to show her the plaques at the bottom of the column, which offered great depictions of the Battle of Trafalgar. Nellie felt mightily proud to share a similar name to such an esteemed person. “See,” Victor boasted, “Some humans are good after all.” Nellie pondered this a moment. It was clear Nelson was a great officer, but she doubted he would act kindly towards a mouse aboard his ship.
 
-It was while she sat thinking of how tremendous it would be to lead a boat into battle, that a pigeon flew by and landed a large white smattering of poop on Nelson's shoulder, a mere inch away from Nellie! The mouse squeaked in outrage: “How dare you!” Victor, seeing the disgust on his friend's face, merely laughed once more. “Don't look so shocked, Nellie, this is where all us pigeons leave our droppings!”
+It was while she sat thinking of how tremendous it would be to lead a boat into battle, that a pigeon flew by and landed a large white smattering of poop on Nelson's shoulder, a mere inch away from Nellie! The mouse squeaked in outrage: “How dare you!” Victor, seeing the disgust on his friend's face, merely laughed once more.
 
 <!--break-->
+
+“Don't look so shocked, Nellie, this is where all us pigeons leave our droppings!”
 
 Nellie was too dumbfounded to speak, thinking her pigeon compatriot too polite for such vile behaviour, so Victor continued: “It's rather better for the humans if we do our business all the way up here where no one can see, rather than down there where they could slip up and hurt themselves.” Nellie could not fault her friend's logic, but thought it rather disrespectful to poop on such a great historical figure all the same.
 
