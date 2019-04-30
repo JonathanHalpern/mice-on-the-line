@@ -6,6 +6,7 @@ const PreviewTemplate: FC<Props> = props => {
   return (
     <>
       <h1>{props.widgetFor("title")}</h1>
+      {/* <h1>{props.widgetFor("coo")}</h1> */}
       <div className="preview-body">{props.widgetFor("body")}</div>
     </>
   )

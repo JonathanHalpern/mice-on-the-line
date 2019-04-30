@@ -1,5 +1,5 @@
 .preview-body {
-  margin-top: 230px;
+  margin-top: 430px;
 }
 
 .book-page {
@@ -23,23 +23,31 @@
 }
 
 .book-page img {
-  max-width: 300px;
+  /* max-width: 300px; */
+  max-height: 43.8vh;
   display: block;
   margin: 0 auto;
 }
 
 .book-page p {
-  font-size: 22px;
-  line-height: 28px;
+  /* font-size: 22px; */
+  font-size: 3.25vh;
+  /* line-height: 28px;*/
+  line-height: 4vh;
   margin: 0 0 15px 0;
   text-align: justify;
 }
+/* 
+.frame-content .book-page img {
+  width: 300px;
+} */
 
 .book-page h1 {
   color: #6367a7;
   text-align: center;
-  margin: 0 0 80px 0;
-  font-size: 46px;
+  margin: 0 0 12vh 0;
+  /* font-size: 46px; */
+  font-size: 7vh;
 }
 
 .book-page .justify-line {

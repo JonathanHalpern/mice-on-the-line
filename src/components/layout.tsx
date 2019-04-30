@@ -4,6 +4,7 @@ import { Global, css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import Header from "./header"
+import Footer from "./footer"
 import ScrollLock from "react-scrolllock"
 import "./layout.css"
 
@@ -17,6 +18,7 @@ const OuterWrapper = styled.main<Props>`
 const Wrapper = styled.div`
   max-width: 940px;
   margin: 15px auto;
+  height: 100%;
 `
 type Props = {
   isScrollLockActive: boolean
@@ -49,6 +51,7 @@ const Layout: FC<Props> = ({ children, isScrollLockActive }) => (
         <OuterWrapper isScrollLockActive={isScrollLockActive}>
           <Wrapper>{children}</Wrapper>
         </OuterWrapper>
+        <Footer />
       </ScrollLock>
     )}
   />

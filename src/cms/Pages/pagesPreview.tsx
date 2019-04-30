@@ -1,5 +1,7 @@
 import React, { FC } from "react"
 
+import Tube from "../../components/tube"
+
 const defaultSeparator = "<!--break-->"
 
 type PagePreview = {
@@ -26,6 +28,7 @@ const PagesPreview: FC<PagesProps> = props => {
 
   return (
     <>
+      {/* <Tube storiesMeta={[]} /> */}
       {pagesMarkdown.map((pageMarkdown, index) => {
         const newProps = { ...props, value: pageMarkdown, index }
         return (
