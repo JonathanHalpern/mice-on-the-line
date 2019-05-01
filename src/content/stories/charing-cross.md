@@ -106,7 +106,9 @@ Victor could understand the mouse's distrust of humans, but he seemed determined
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p15-med.jpg)
+
+TODO: Resize medium
 
 Over the next week, Victor's wing began to heal. Nellie took care of her new companion by bringing him crumbs she found on the track.
 
@@ -124,9 +126,7 @@ He reassured her that his wing was good as new and, when the mouse was ready (or
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
-
-
+![null](/img/charingpicmed.jpg)
 
 At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, avoiding people's footsteps, mousetraps and even the monstrous trains themselves, nothing could have prepared her for the sensation of flying six feet up in the air.
 
@@ -157,7 +157,9 @@ And there in front of her, cutting through that great blue sky, was the single t
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p23-med.jpg)
+
+TODO: Resize full width
 
 That might not be saying much for a mouse who's spent her life living in the confines of the underground, so let's try that again: This was the single tallest thing Nellie could _ever have imagined._ She squeaked in delight, “Victor, Victor! What is that magnificent building?”
 
@@ -169,9 +171,11 @@ Nellie was too shocked to refuse, but as the ground grew further and further awa
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p25-med.jpg)
 
-Within seconds they were perched on the shoulder of Horatio Nelson: one of the greatest naval officers in the history of Britain and the world! Victor told her all about his great conquest of the seas and Nellie marvelled at her friend's knowledge.
+TODO: Resize Medium
+
+Within seconds they were perched on the shoulder of Horatio Nelson: one of the greatest naval officers in the history of Britain and the world! Victor told her all about his great conquest of the seas and how he even lost an arm in battle. "Unfortunately for Nelson, he didn't have a friend to fix it for him." Nellie blushed, for she knew Victor was talking about how she had helped to mend his wing.
 
 <!--break-->
 
