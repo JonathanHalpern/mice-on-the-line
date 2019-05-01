@@ -12,6 +12,7 @@ import { Story } from "../../../types"
 
 const SvgWrapper = styled.div`
   width: 100%;
+  position: relative;
 `
 
 const StyledSvg = styled.svg`
@@ -32,6 +33,9 @@ type State = {
   hoveredStation: Station
 }
 
+const xOffset = 430
+const yOffset = 375
+
 class Tube extends Component<Props, State> {
   constructor(props: Props) {
     super(props)
@@ -48,7 +52,7 @@ class Tube extends Component<Props, State> {
       storiesMeta.find(story => story.id === hoveredStation.id)
     return (
       <SvgWrapper>
-        <StyledSvg width="100%" viewBox="430 375 270 150">
+        <StyledSvg width="100%" viewBox={`${xOffset} ${yOffset} 270 160`}>
           <River />
           <Lines />
           <StationNames />

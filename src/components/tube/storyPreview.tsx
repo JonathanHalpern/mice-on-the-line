@@ -26,8 +26,8 @@ const CloseButton = styled.image`
   }
 `
 
-const width = 80
-const height = 80
+const width = 50
+const height = 50
 const margin = 10
 
 const StoryPreview: FC<Props> = ({
@@ -41,10 +41,7 @@ const StoryPreview: FC<Props> = ({
   const mouseImage = require(`../../images/${storyId}-cover.jpeg`)
   const closeIcon = require(`../../images/close.png`)
   return (
-    <Wrapper
-      transform={`matrix(1 0 0 1 ${x - width / 2} ${y - height / 2})`}
-      onMouseLeave={mouseLeave}
-    >
+    <Wrapper transform={`matrix(1 0 0 1 ${x} ${y})`} onMouseLeave={mouseLeave}>
       <Link to={`/${storyId}`}>
         <Background width={width} height={height} />
         {/* <text

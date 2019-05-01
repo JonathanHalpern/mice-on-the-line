@@ -2,7 +2,67 @@ import React from "react"
 
 export default () => (
   <g id="station-names">
-    <text
+    <g>
+      <g id="s-940gzzlulsq_label_2_">
+        <text
+          id="s-940gzzlulsq_label_3_"
+          transform="matrix(1 0 0 1 540.5107 462.9912)"
+          fill="#1C3F94"
+          className="blue-fill"
+        >
+          Leicester Square
+        </text>
+      </g>
+      <g id="s-940gzzluoxc_label">
+        <text
+          id="s-940gzzluoxc_label_1_"
+          transform="matrix(1 0 0 1 478.1748 425.1328)"
+        >
+          <tspan x="0" y="0" fill="#1C3F94" className="blue-fill">
+            Oxford
+          </tspan>
+          <tspan x="1.8" y="4.5" fill="#1C3F94" className="blue-fill">
+            Circus
+          </tspan>
+        </text>
+      </g>
+      <g id="s-940gzzlucgn_label">
+        <text
+          id="s-940gzzlucgn_label_1_"
+          transform="matrix(1 0 0 1 550.9121 450.8623)"
+          fill="#1C3F94"
+          className="blue-fill"
+        >
+          Covent Garden
+        </text>
+      </g>
+      <text
+        id="s-940gzzlubnk_label"
+        transform="matrix(1 0 0 1 621.7705 447.169)"
+        fill="#1C3F94"
+        className="blue-fill"
+      >
+        Bank
+      </text>
+      <g id="s-940gzzluchx_label">
+        <g id="s-940gzzluchx_label_1_">
+          <text transform="matrix(1 0 0 1 515.8999 487.6963)">
+            <tspan x="0" y="0" fill="#1C3F94" className="blue-fill">
+              Charing
+            </tspan>
+            <tspan x="4.3" y="4.5" fill="#1C3F94" className="blue-fill">
+              Cross
+            </tspan>
+          </text>
+        </g>
+        <polygon
+          id="s-940gzzluchx_nr"
+          fill="#EE3124"
+          points="514.3,487.7 512.6,486.9 515,486.9 515,486.4 512.5,486.4 513.8,485.8 515,485.8 515,485.3 513.8,485.3 512.2,484.6 511,484.6 512.7,485.3 510.2,485.3 510.2,485.8 512.7,485.8 511.4,486.4 510.2,486.4 510.2,486.9 511.5,486.9 513.1,487.7 "
+        />
+      </g>
+    </g>
+    {/* <text
       id="s-910gbthnlgr_label_x0a__1_"
       transform="matrix(1 0 0 1 737.6218 377.0085)"
       fill="#1C3F94"
@@ -5091,6 +5151,6 @@ export default () => (
         fill="#EE3124"
         points="118.7,461.1 117.1,460.4 119.4,460.4 119.4,459.9 117,459.9 118.2,459.3 119.4,459.3 119.4,458.9 118.2,458.9 116.7,458.2 115.6,458.2 117.2,458.9 114.8,458.9 114.8,459.3 117.2,459.3 115.9,459.9 114.8,459.9 114.8,460.4 116,460.4 117.6,461.1 "
       />
-    </g>
+    </g> */}
   </g>
 )

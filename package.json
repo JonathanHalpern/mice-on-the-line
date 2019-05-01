@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mice-on-the-line",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A showcase of Mice on the Line stories",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jonathan Halpern <jonnyhalpern@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9",
@@ -52,7 +52,13 @@
     "tslint-react-hooks": "^2.0.0"
   },
   "keywords": [
-    "gatsby"
+    "mice",
+    "line",
+    "mice on the line",
+    "tube",
+    "underground",
+    "london",
+    "natalie woodward"
   ],
   "license": "MIT",
   "scripts": {

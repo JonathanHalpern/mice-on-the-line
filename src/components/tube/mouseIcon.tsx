@@ -1,5 +1,4 @@
-import React, { FC, useState, useEffect } from "react"
-import styled from "@emotion/styled"
+import React, { FC, useState } from "react"
 import { Spring } from "react-spring/renderprops"
 
 import mouse from "../../images/mouse-outline.png"
@@ -17,7 +16,7 @@ const Tube: FC<Props> = ({ x, y }) => {
 
   return (
     <Spring
-      config={{ mass: 1, tension: 120, friction: 14 }}
+      config={{ mass: 1, tension: 60, friction: 14 }}
       from={{ stretch: 1 }}
       to={{ stretch: 1.5 }}
       reset={resetAnimation}
