@@ -11,11 +11,12 @@ x: 530
 ---
 # Charing Cross
 
-![](/img/charing-cross-cover.jpeg)
+![](/img/charingpicmed.jpg)
 
 <!--break-->
 
-![null](/img/charing-cross-cover.jpeg)
+![null](/img/p1-med.jpg)
+TODO: make full width
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
 
@@ -27,7 +28,9 @@ This just so happened to be the case one afternoon at Trafalgar Square, when a p
 
 <!--break-->
 
-![null](/img/charing-cross-cover.jpeg)
+![null](/img/p3-med.jpg)
+
+TODO: Make full width
 
 Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
 
@@ -39,7 +42,9 @@ At this, the boy delighted. Pigeons from all around were coming to peck bread fr
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p5-med.jpg)
+
+TODO: Full width
 
 For the same reason, the lady was horrified. She scampered to the nearest tube station to avoid the onslaught of pigeons, feeling herself pinched and pecked by the nasty beasts.
 
@@ -57,7 +62,9 @@ Despite the fact that Victor was only picking at the trail of crumbs left by thi
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p8-med.jpg)
+
+TODO: Resize medium
 
 One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is a safety hazard for humans (never mind the pigeon).
 
@@ -77,7 +84,9 @@ Nellie is a true mouse of the underground. Her eyesight is poor from spending so
 
 Nellie is just such a mouse.
 
-![null](img/charing-cross-cover.jpeg)
+TODO: Resize full width
+
+![null](/img/p11-med.jpg)
 
 <!--break-->
 
