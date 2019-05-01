@@ -8,7 +8,7 @@ description: >-
 x: 619.5
 'y': 446.5
 ---
-# Bank
+# Mice on the Line
 
 ![](/img/bankpicmed.jpg)
 
