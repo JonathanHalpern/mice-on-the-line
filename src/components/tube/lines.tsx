@@ -4,7 +4,7 @@ export default () => (
   <>
     {/* TFL Rail */}
     <g id="tfl-rail" className="line">
-      <rect
+      {/* <rect
         id="tfl-rail_910gmryland_2_"
         x="863.2"
         y="322.9"
@@ -73,7 +73,7 @@ export default () => (
         width="1.5"
         height="1.6"
         className="blue-fill"
-      />
+      /> */}
       <path
         id="tfl-rail_910gstfd_910glivst_2_"
         fill="none"
@@ -224,7 +224,7 @@ export default () => (
         strokeMiterlimit="3.9938"
         d=" M1019.5,165.5C783.1,401.8,783.1,401.8,776.5,408.4c-1.2,1.2-3.7,2.2-5.4,2.2c-2.9,0-111.6,0-111.6,0"
       />
-      <rect
+      {/* <rect
         id="tfl-rail_910gactonml_x0a_"
         x="260.1"
         y="417.6"
@@ -252,7 +252,7 @@ export default () => (
         width="1.6"
         height="1.6"
         className="blue-fill"
-      />
+      /> */}
       <line
         id="tfl-rail_910ghtrwapt_910ghtrwtm4"
         fill="none"
@@ -1002,7 +1002,7 @@ export default () => (
         strokeMiterlimit="3.9938"
         d=" M536.7,535.8l0.1,84.2c0,1.4-0.8,3.3-1.7,4.2c-0.2,0.2-1.1,1.1-1.1,1.1"
       />
-      <rect
+      {/* <rect
         id="lul-northern_940gzzlumhl"
         x="566"
         y="197.4"
@@ -1158,7 +1158,7 @@ export default () => (
         transform="matrix(0.7071 -0.7071 0.7071 0.7071 -383.5593 521.8141)"
         width="1.5"
         height="1.5"
-      />
+      /> */}
     </g>
     // Overground
     <g id="raillo-overground" className="line">
@@ -1846,7 +1846,7 @@ export default () => (
         x2="974.6"
         y2="250.2"
       />
-      <rect
+      {/* <rect
         id="raillo-overground_910gwatfdhs"
         x="322.8"
         y="160.3"
@@ -1989,7 +1989,7 @@ export default () => (
         fill="#F58025"
         width="1.5"
         height="1.5"
-      />
+      /> */}
       <path
         id="raillo-overground_910gsurreyq_910gpckhmqd_2_"
         fill="none"
@@ -2091,7 +2091,7 @@ export default () => (
         x2="748.8"
         y2="149.7"
       />
-      <rect
+      {/* <rect
         id="raillo-overground_910gbthnlgr"
         x="736"
         y="372.1"
@@ -2156,7 +2156,7 @@ export default () => (
         fill="#F58025"
         width="1.6"
         height="1.5"
-      />
+      /> */}
       <path
         id="raillo-overground_910genfldtn_910gbhillpk"
         fill="none"
@@ -2361,7 +2361,7 @@ export default () => (
         strokeMiterlimit="3.9938"
         d=" M764.3,304.9l-13.9,13.9c-1.4,1.4-2.4,3.8-2.4,5.6c0,1.5,0,6.2,0,6.2"
       />
-      <rect
+      {/* <rect
         id="raillo-overground_910gsbury"
         x="724.6"
         y="175.2"
@@ -2423,7 +2423,7 @@ export default () => (
         fill="#F58025"
         width="1.6"
         height="1.5"
-      />
+      /> */}
       <g id="raillo-overground_white_line_15_">
         <path
           id="raillo-overground_white_line_4_"
@@ -2674,7 +2674,7 @@ export default () => (
         strokeMiterlimit="3.9938"
         d=" M723.9,557.7c0-7.5,0-34.7,0-44.1"
       />
-      <rect
+      {/* <rect
         id="raillo-overground_910gwapping"
         x="725"
         y="485.5"
@@ -2705,7 +2705,7 @@ export default () => (
         fill="#F58025"
         width="1.5"
         height="1.5"
-      />
+      /> */}
       <line
         id="raillo-overground_910gsurreyq_910gnewxgte"
         fill="none"
@@ -2757,7 +2757,7 @@ export default () => (
         />
       </g>
       <g id="lul-bakerloo_940gzzluksl_raillo-overground_910gkensig">
-        <rect
+        {/* <rect
           id="lul-bakerloo_940gzzluksl"
           x="320.5"
           y="338.6"
@@ -2774,7 +2774,7 @@ export default () => (
             width="1.5"
             height="1.5"
           />
-        </g>
+        </g> */}
       </g>
     </g>
     {/* Dlr */}
@@ -3671,7 +3671,7 @@ export default () => (
         x2="327.6"
         y2="261.2"
       />
-      <g id="lul-bakerloo_940gzzluskt_raillo-overground_910gskenton_2_">
+      {/* <g id="lul-bakerloo_940gzzluskt_raillo-overground_910gskenton_2_">
         <rect
           id="lul-bakerloo_940gzzluskt"
           x="316.8"
@@ -3793,7 +3793,7 @@ export default () => (
         fill="#B06010"
         width="1.5"
         height="1.5"
-      />
+      /> */}
     </g>
     {/* Jubilee */}
     <g id="lul-jubilee" className="line">
@@ -4043,7 +4043,7 @@ export default () => (
         x2="370"
         y2="233.1"
       />
-      <rect
+      {/* <rect
         id="lul-jubilee_940gzzlucpk"
         x="371.1"
         y="231.6"
@@ -4085,7 +4085,7 @@ export default () => (
         fill="#949CA1"
         width="1.5"
         height="1.5"
-      />
+      /> */}
       <line
         id="lul-jubilee_940gzzluswc_940gzzlusjw"
         fill="none"
@@ -4122,7 +4122,7 @@ export default () => (
         x2="442.5"
         y2="341.5"
       />
-      <rect
+      {/* <rect
         id="lul-jubilee_940gzzluswc_2_"
         x="450.3"
         y="346.7"
@@ -4139,7 +4139,7 @@ export default () => (
         fill="#949CA1"
         width="1.5"
         height="1.5"
-      />
+      /> */}
     </g>
     {/* Victoria */}
     <g id="lul-victoria" className="line">
@@ -4299,14 +4299,14 @@ export default () => (
         x2="514.6"
         y2="644.9"
       />
-      <rect
+      {/* <rect
         id="lul-victoria_940gzzlupco_2_"
         x="473.2"
         y="564.9"
         fill="#009DDC"
         width="1.5"
         height="1.5"
-      />
+      /> */}
     </g>
     {/* Picadilly */}
     <g id="lul-piccadilly" className="line">
@@ -4936,7 +4936,7 @@ export default () => (
         strokeWidth="0.9271"
         points="120.9,610.8 118.2,608.2 115.5,610.8 "
       />
-      <rect
+      {/* <rect
         id="lul-piccadilly_940gzzlushh_2_"
         x="228.1"
         y="282.5"
@@ -5161,7 +5161,7 @@ export default () => (
         width="1.5"
         height="1.5"
         className="blue-fill"
-      />
+      /> */}
     </g>
     {/* Central */}
     <g id="lul-central" className="line">
@@ -5693,7 +5693,7 @@ export default () => (
         x2="161.9"
         y2="294.7"
       />
-      <rect
+      {/* <rect
         id="lul-central_940gzzlursg"
         x="159.3"
         y="265.3"
@@ -5929,7 +5929,7 @@ export default () => (
         fill="#EE3124"
         width="1.5"
         height="1.5"
-      />
+      /> */}
       <line
         id="lul-central_940gzzluwrp_940gzzlursg"
         fill="none"
@@ -6662,7 +6662,7 @@ export default () => (
         x2="334.3"
         y2="488.8"
       />
-      <g id="lul-circle_lul-hammersmith-city_940gzzluryo">
+      {/* <g id="lul-circle_lul-hammersmith-city_940gzzluryo">
         <rect
           id="lul-hammersmith-city_940gzzluryo"
           x="346.3"
@@ -6773,7 +6773,7 @@ export default () => (
           width="1.5"
           height="1.5"
         />
-      </g>
+      </g> */}
     </g>
     {/* District */}
     <g id="lul-district" className="line">
@@ -7459,7 +7459,7 @@ export default () => (
         x2="363.7"
         y2="513.3"
       />
-      <g id="lul-circle_lul-district_940gzzlumsh_2_">
+      {/* <g id="lul-circle_lul-district_940gzzlumsh_2_">
         <rect
           id="lul-circle_940gzzlumsh_2_"
           x="603.2"
@@ -7793,7 +7793,7 @@ export default () => (
         fill="#00853F"
         width="1.5"
         height="1.5"
-      />
+      /> */}
     </g>
     {/* Metropolitan */}
     <g id="lul-metropolitan" className="line">
@@ -8182,7 +8182,7 @@ export default () => (
         x2="200.7"
         y2="179.9"
       />
-      <rect
+      {/* <rect
         id="lul-metropolitan_940gzzlucxy"
         x="201.8"
         y="178.4"
@@ -8437,7 +8437,7 @@ export default () => (
           width="1.5"
           height="1.5"
         />
-      </g>
+      </g> */}
     </g>
   </>
 )

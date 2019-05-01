@@ -33,8 +33,8 @@ type State = {
   hoveredStation: Station
 }
 
-const xOffset = 430
-const yOffset = 375
+const xOffset = 440
+const yOffset = 380
 
 class Tube extends Component<Props, State> {
   constructor(props: Props) {
@@ -52,7 +52,7 @@ class Tube extends Component<Props, State> {
       storiesMeta.find(story => story.id === hoveredStation.id)
     return (
       <SvgWrapper>
-        <StyledSvg width="100%" viewBox={`${xOffset} ${yOffset} 270 160`}>
+        <StyledSvg width="100%" viewBox={`${xOffset} ${yOffset} 240 155`}>
           <River />
           <Lines />
           <StationNames />
