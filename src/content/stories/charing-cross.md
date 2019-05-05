@@ -7,8 +7,9 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-'y': 480.5
+"y": 480.5
 ---
+
 # Charing Cross
 
 ![](/img/charingpicmed.jpg)
@@ -122,7 +123,7 @@ Unlike people, mice and pigeons do not need to do all that much to get ready in 
 
 At first, Nellie perched awkwardly on Victor, scared to hurt her friend's newly recovered wing, but Victor ruffled his feathers around the little mouse, creating a comfy seat.
 
-He reassured her that his wing was good as new and, when the mouse was ready (or  as ready as she would ever be), the two friends took flight!
+He reassured her that his wing was good as new and, when the mouse was ready (or as ready as she would ever be), the two friends took flight!
 
 <!--break-->
 

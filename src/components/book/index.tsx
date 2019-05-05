@@ -40,7 +40,7 @@ const Container = styled.div<Container>`
   .book-page > div {
     margin: ${props => `${props.scale * 45}px`};
   }
-  .book-page img {
+  .book-page .gatsby-resp-image-wrapper {
     max-width: ${props => `${props.scale * baseImageWidth}px`};
   }
   .book-page h1 {
@@ -69,8 +69,6 @@ const TurnWrapper = styled.div`
     margin: 0 auto;
   }
 `
-
-const PageContent = styled.div<Container>``
 
 let initialOptions = {
   width: 940,
@@ -141,10 +139,7 @@ const Book: FC<Props> = ({ pages }) => {
                   index >= pages.length - 2) &&
                   "hard"}`}
               >
-                <PageContent
-                  dangerouslySetInnerHTML={{ __html: page }}
-                  scale={scale}
-                />
+                <div dangerouslySetInnerHTML={{ __html: page }} />
                 {index !== 0 && <span className="page-number">{index}</span>}
               </div>
             ))}
