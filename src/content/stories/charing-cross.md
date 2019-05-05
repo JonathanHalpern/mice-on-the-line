@@ -7,12 +7,11 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-"y": 480.5
+'y': 480.5
 ---
-
 # Charing Cross
 
-![](/img/elf-background-2.49x3.74.jpeg)
+![](/img/p3-med.jpg)
 
 <!--break-->
 
