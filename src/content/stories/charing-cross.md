@@ -11,7 +11,7 @@ x: 530
 ---
 # Charing Cross
 
-![](/img/charingpicmed.jpg)
+![](/img/elf-background-2.49x3.74.jpeg)
 
 <!--break-->
 
