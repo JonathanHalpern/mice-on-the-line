@@ -11,7 +11,7 @@ x: 530
 ---
 # Charing Cross
 
-![](/img/p3-med.jpg)
+![](/img/charingpicmed.jpg)
 
 <!--break-->
 
