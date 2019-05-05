@@ -5,7 +5,7 @@ import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
   background: #f16666;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 `
 

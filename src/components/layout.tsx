@@ -8,16 +8,23 @@ import Footer from "./footer"
 import ScrollLock from "react-scrolllock"
 import "./layout.css"
 
-const OuterWrapper = styled.main<Props>`
-  background: #fff5ff;
+const BodyWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  padding-top: 48px;
+`
+
+const OuterWrapper = styled.main<Props>`
+  flex: 1;
+  background: #fff5ff;
+  padding: 10px;
+  /* padding-top: 48px; */
   ${({ isScrollLockActive }) => !isScrollLockActive && `overflow-y: scroll`}
 `
 
 const Wrapper = styled.div`
   max-width: 940px;
-  margin: 15px auto;
+  margin: 0 auto;
   height: 100%;
 `
 type Props = {
@@ -47,11 +54,13 @@ const Layout: FC<Props> = ({ children, isScrollLockActive }) => (
             }
           `}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <OuterWrapper isScrollLockActive={isScrollLockActive}>
-          <Wrapper>{children}</Wrapper>
-        </OuterWrapper>
-        <Footer />
+        <BodyWrapper>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <OuterWrapper isScrollLockActive={isScrollLockActive}>
+            <Wrapper>{children}</Wrapper>
+          </OuterWrapper>
+          <Footer />
+        </BodyWrapper>
       </ScrollLock>
     )}
   />

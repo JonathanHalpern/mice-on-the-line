@@ -34,6 +34,9 @@ const Container = styled.div<Container>`
     font-size: ${props => `${props.scale * basePSize}px`};
     line-height: ${props => `${props.scale * baseLineheight}px`};
   }
+  .book-page .page-number {
+    font-size: ${props => `${props.scale * basePSize}px`};
+  }
   .book-page > div {
     margin: ${props => `${props.scale * 45}px`};
   }
@@ -60,6 +63,12 @@ const Container = styled.div<Container>`
     background-image: none;
   }
 `
+const TurnWrapper = styled.div`
+  padding-top: 5px;
+  > div {
+    margin: 0 auto;
+  }
+`
 
 const PageContent = styled.div<Container>``
 
@@ -74,14 +83,15 @@ let initialOptions = {
   zoom: 2,
 }
 
-const margin = 50 //todo: remove this
+const margins = [5, 5] //todo: remove this
 
 const getRatio = (containerRef, ideals) => {
   const { clientHeight, clientWidth } = containerRef.current
-  const ratioX = clientHeight / ideals[0]
-  const ratioY = clientWidth / ideals[1]
-
-  return Math.min(ratioX, ratioY)
+  const ratioX = (clientWidth - margins[0]) / ideals[0]
+  const ratioY = (clientHeight - margins[1]) / ideals[1]
+  console.log(clientWidth, ratioX, ideals[0])
+  console.log(clientHeight, ratioY, ideals[1])
+  return Math.min(ratioX, ratioY, 1)
 }
 
 const Book: FC<Props> = ({ pages }) => {
@@ -90,10 +100,7 @@ const Book: FC<Props> = ({ pages }) => {
   const [scale, setScale] = useState(null)
   const containerRef = useRef(null)
 
-  const idealHeight = 620
-  const idealWidth = 940
-
-  const ideals = [620, 940]
+  const ideals = [940, 620]
 
   useEffect(() => {
     if (!scale) {
@@ -103,21 +110,17 @@ const Book: FC<Props> = ({ pages }) => {
       setTimeout(() => {
         setOptions({
           ...options,
-          height: idealHeight * scale,
-          width: idealWidth * scale,
+          page: activePage ? activePage : undefined,
+          width: ideals[0] * scale,
+          height: ideals[1] * scale,
         })
       })
     }
   }, [scale])
 
   const setupScale = () => {
-    const { clientHeight, clientWidth } = containerRef.current
-
-    const ratioX = clientHeight / idealHeight
-    const ratioY = clientWidth / idealWidth
-
     const ratio = getRatio(containerRef, ideals)
-
+    console.warn(ratio)
     setScale(ratio)
   }
 
@@ -129,7 +132,7 @@ const Book: FC<Props> = ({ pages }) => {
   return (
     <Container ref={containerRef} scale={scale}>
       {options.height !== 0 && (
-        <div>
+        <TurnWrapper>
           <Turn options={options} onPageTurn={setActivePage}>
             {pages.map((page, index) => (
               <div
@@ -146,7 +149,7 @@ const Book: FC<Props> = ({ pages }) => {
               </div>
             ))}
           </Turn>
-        </div>
+        </TurnWrapper>
       )}
     </Container>
   )

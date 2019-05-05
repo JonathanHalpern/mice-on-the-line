@@ -29,7 +29,7 @@ class BlogPostTemplate extends React.Component<Props> {
     const pages = post.html.split("<!--break-->")
 
     return (
-      <Layout isScrollLockActive>
+      <Layout isScrollLockActive={false}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}

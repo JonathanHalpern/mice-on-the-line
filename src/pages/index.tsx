@@ -15,7 +15,7 @@ type Props = {
 }
 
 const IndexPage: FC<Props> = ({ data }) => (
-  <Layout isScrollLockActive={false}>
+  <Layout isScrollLockActive={true}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Container>
       <Tube
