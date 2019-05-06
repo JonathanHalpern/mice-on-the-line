@@ -1,5 +1,6 @@
 import React, { FC, useState, useRef, useEffect } from "react"
 import styled from "@emotion/styled"
+import Img from "gatsby-image"
 import "../../../static/admin/page.css"
 
 import Turn from "./turn"
@@ -21,10 +22,18 @@ type Container = {
 }
 
 const basePSize = 22
+const basePMargin = 15
+const baseSignSize = 60
+const baseSignMargin = 10
 const baseLineheight = 28
 const baseImageWidth = 300
 const h1MarginBottom = 40
 const h1FontSize = 46
+const pageNumberBottom = 20
+
+const HandWritten = styled.p`
+  font-family: Chelsea Olivia;
+`
 
 const Container = styled.div<Container>`
   margin: 0 auto;
@@ -33,9 +42,16 @@ const Container = styled.div<Container>`
   .book-page p {
     font-size: ${props => `${props.scale * basePSize}px`};
     line-height: ${props => `${props.scale * baseLineheight}px`};
+    margin: ${props => `0 0 ${props.scale * basePMargin}px 0`};
+  }
+  .book-page ${HandWritten} {
+    font-size: ${props => `${props.scale * baseSignSize}px`};
+    margin: ${props => `${props.scale * baseSignMargin}px 0 0 0`};
+    text-align: center;
   }
   .book-page .page-number {
     font-size: ${props => `${props.scale * basePSize}px`};
+    bottom: ${props => `${props.scale * pageNumberBottom}px`};
   }
   .book-page > div {
     margin: ${props => `${props.scale * 45}px`};
@@ -62,9 +78,14 @@ const Container = styled.div<Container>`
   .hard {
     background-image: none;
   }
+  img[src*="#thumbnail"] {
+    width: 150px;
+    height: 100px;
+  }
 `
+
 const TurnWrapper = styled.div`
-  padding-top: 5px;
+  /* padding-top: 5px; */
   > div {
     margin: 0 auto;
   }
@@ -81,18 +102,17 @@ let initialOptions = {
   zoom: 2,
 }
 
-const margins = [5, 5] //todo: remove this
+const margins = [0, 0] //todo: remove this
 
 const getRatio = (containerRef, ideals) => {
   const { clientHeight, clientWidth } = containerRef.current
   const ratioX = (clientWidth - margins[0]) / ideals[0]
   const ratioY = (clientHeight - margins[1]) / ideals[1]
-  console.log(clientWidth, ratioX, ideals[0])
-  console.log(clientHeight, ratioY, ideals[1])
+  // console.log(ratioX, clientWidth, ratioY, clientHeight)
   return Math.min(ratioX, ratioY, 1)
 }
 
-const Book: FC<Props> = ({ pages }) => {
+const Book: FC<Props> = ({ pages, coverImage }) => {
   const [activePage, setActivePage] = useState(0)
   const [options, setOptions] = useState(initialOptions)
   const [scale, setScale] = useState(null)
@@ -104,8 +124,9 @@ const Book: FC<Props> = ({ pages }) => {
     if (!scale) {
       setupScale()
     } else {
-      setOptions({ ...options, height: 0 })
+      // setOptions({ ...options, height: 0 })
       setTimeout(() => {
+        // console.log(ideals[0] * scale, ideals[1] * scale)
         setOptions({
           ...options,
           page: activePage ? activePage : undefined,
@@ -116,6 +137,14 @@ const Book: FC<Props> = ({ pages }) => {
     }
   }, [scale])
 
+  let resizeTimer
+
+  const debouncedSetupScale = () => {
+    setOptions({ ...options, height: 0 })
+    clearTimeout(resizeTimer)
+    resizeTimer = setTimeout(setupScale, 500)
+  }
+
   const setupScale = () => {
     const ratio = getRatio(containerRef, ideals)
     console.warn(ratio)
@@ -123,8 +152,8 @@ const Book: FC<Props> = ({ pages }) => {
   }
 
   useEffect(() => {
-    window.addEventListener("resize", setupScale)
-    return () => window.removeEventListener("resize", setupScale)
+    window.addEventListener("resize", debouncedSetupScale)
+    return () => window.removeEventListener("resize", debouncedSetupScale)
   }, [])
 
   return (
@@ -132,15 +161,25 @@ const Book: FC<Props> = ({ pages }) => {
       {options.height !== 0 && (
         <TurnWrapper>
           <Turn options={options} onPageTurn={setActivePage}>
+            <div key={0} className="book-page hard">
+              <div>
+                <h1>Mice on the Line</h1>
+                <Img fluid={coverImage.childImageSharp.fluid} />
+
+                <HandWritten>by Natalie Woodward</HandWritten>
+              </div>
+            </div>
             {pages.map((page, index) => (
               <div
                 key={index}
-                className={`book-page ${(index <= 1 ||
+                className={`book-page ${(index === 0 ||
                   index >= pages.length - 2) &&
                   "hard"}`}
               >
                 <div dangerouslySetInnerHTML={{ __html: page }} />
-                {index !== 0 && <span className="page-number">{index}</span>}
+                {index !== pages.length - 1 && (
+                  <span className="page-number">{index + 1}</span>
+                )}
               </div>
             ))}
           </Turn>

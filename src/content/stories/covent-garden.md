@@ -6,8 +6,8 @@ description: You may think it gets rather cold in England at winter.of England's
 date: "2015-05-01T22:12:03.284Z"
 x: 541
 y: 440.5
+coverImage: /images/bank-cover.jpg
+previewImage: /images/bank-preview.jpg
 ---
-
-![null](img/covent-garden-cover.jpeg)
 
 Add story....

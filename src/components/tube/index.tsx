@@ -61,10 +61,9 @@ class Tube extends Component<Props, State> {
           {story && (
             <StoryPreview
               storyId={hoveredStation.id}
-              storyTitle={story.title}
-              description={story.description}
               x={hoveredStation.x}
               y={hoveredStation.y}
+              image={hoveredStation.previewImage}
               mouseLeave={() => {
                 this.setHoveredStation(nullStation)
               }}
@@ -75,6 +74,7 @@ class Tube extends Component<Props, State> {
     )
   }
   setHoveredStation = (hoveredStation: Station) => {
+    console.log(hoveredStation)
     this.setState({
       hoveredStation,
     })

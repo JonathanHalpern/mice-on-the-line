@@ -7,6 +7,7 @@ import Header from "./header"
 import Footer from "./footer"
 import ScrollLock from "react-scrolllock"
 import "./layout.css"
+import "../style/font-face.css"
 
 const BodyWrapper = styled.div`
   display: flex;
@@ -19,7 +20,8 @@ const OuterWrapper = styled.main<Props>`
   background: #fff5ff;
   padding: 10px;
   /* padding-top: 48px; */
-  ${({ isScrollLockActive }) => !isScrollLockActive && `overflow-y: scroll`}
+  /* ${({ isScrollLockActive }) =>
+    !isScrollLockActive && `overflow-y: scroll`} */
 `
 
 const Wrapper = styled.div`

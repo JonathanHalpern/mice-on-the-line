@@ -26,6 +26,7 @@ type Props = {
 class BlogPostTemplate extends React.Component<Props> {
   render() {
     const post = this.props.data.markdownRemark
+    const { coverImage } = post.frontmatter
     const pages = post.html.split("<!--break-->")
 
     return (
@@ -35,7 +36,7 @@ class BlogPostTemplate extends React.Component<Props> {
           description={post.frontmatter.description || post.excerpt}
         />
 
-        <Book pages={pages} />
+        <Book pages={pages} coverImage={coverImage} />
       </Layout>
     )
   }
@@ -57,8 +58,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
         description
+        coverImage {
+          childImageSharp {
+            fluid(maxWidth: 380) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

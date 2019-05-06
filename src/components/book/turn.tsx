@@ -26,7 +26,6 @@ class Turn extends Component<Props> {
   }
 
   componentDidMount() {
-    console.log(this.props)
     if (this.el) {
       $(this.el).turn(
         Object.assign({}, { ...this.props.options, ...additionalOptions })

@@ -88,7 +88,6 @@ export default class PagesControl extends Component<Props, State> {
     newPageObjects[i].page = value
     const updatedStory = newPageObjects
       .map(pageObject => {
-        console.log(pageObject.page.trim())
         return pageObject.page.trim()
       })
       .join(mdSeperator)

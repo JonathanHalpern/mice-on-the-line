@@ -29,7 +29,9 @@ const IndexPage: FC<Props> = ({ data }) => (
 
 export const IndexPageQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "story" } } }
+    ) {
       edges {
         node {
           frontmatter {
@@ -38,6 +40,14 @@ export const IndexPageQuery = graphql`
             description
             x
             y
+            previewImage {
+              publicURL
+              childImageSharp {
+                fluid(maxWidth: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

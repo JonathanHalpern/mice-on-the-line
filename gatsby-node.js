@@ -1,4 +1,10 @@
 const path = require(`path`)
+// gatsby-node.js
+const { fmImagesToRelative } = require("gatsby-remark-relative-images")
+
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node)
+}
 
 const getTemplate = templateKey => {
   switch (templateKey) {

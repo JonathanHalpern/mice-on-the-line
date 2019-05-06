@@ -7,16 +7,12 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-'y': 480.5
+y: 480.5
+coverImage: /images/charingcross-cover.jpg
+previewImage: /images/charingcross-preview.jpg
 ---
-# Charing Cross
-
-![](/img/charingpicmed.jpg)
-
-<!--break-->
 
 ![null](/img/p1-med.jpg)
-TODO: make full width
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
 
@@ -30,8 +26,6 @@ This just so happened to be the case one afternoon at Trafalgar Square, when a p
 
 ![null](/img/p3-med.jpg)
 
-TODO: Make full width
-
 Moments before, she had been standing in the hustle and bustle of Trafalgar Square when she rushed over to a child feeding the pigeons underneath Nelson's Column and confiscated his bag of bread.
 
 <!--break-->
@@ -43,8 +37,6 @@ At this, the boy delighted. Pigeons from all around were coming to peck bread fr
 <!--break-->
 
 ![null](/img/p5-med.jpg)
-
-TODO: Full width
 
 For the same reason, the lady was horrified. She scampered to the nearest tube station to avoid the onslaught of pigeons, feeling herself pinched and pecked by the nasty beasts.
 
@@ -64,8 +56,6 @@ Despite the fact that Victor was only picking at the trail of crumbs left by thi
 
 ![null](/img/p8-med.jpg)
 
-TODO: Resize medium
-
 One kind commuter pushed the 'Emergency Stop' button on the escalator. Victor did not know if this was for his sake or because a flapping pigeon at the end of an escalator is a safety hazard for humans (never mind the pigeon).
 
 <!--break-->
@@ -83,8 +73,6 @@ Nellie is a true mouse of the underground. Her eyesight is poor from spending so
 <!--break-->
 
 Nellie is just such a mouse.
-
-TODO: Resize full width
 
 ![null](/img/p11-med.jpg)
 
@@ -108,8 +96,6 @@ Victor could understand the mouse's distrust of humans, but he seemed determined
 
 ![null](/img/p15-med.jpg)
 
-TODO: Resize medium
-
 Over the next week, Victor's wing began to heal. Nellie took care of her new companion by bringing him crumbs she found on the track.
 
 <!--break-->
@@ -126,7 +112,7 @@ He reassured her that his wing was good as new and, when the mouse was ready (or
 
 <!--break-->
 
-![null](/img/charingpicmed.jpg)
+![null](/img/p18-med.jpg)
 
 At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, avoiding people's footsteps, mousetraps and even the monstrous trains themselves, nothing could have prepared her for the sensation of flying six feet up in the air.
 
@@ -159,8 +145,6 @@ And there in front of her, cutting through that great blue sky, was the single t
 
 ![null](/img/p23-med.jpg)
 
-TODO: Resize full width
-
 That might not be saying much for a mouse who's spent her life living in the confines of the underground, so let's try that again: This was the single tallest thing Nellie could _ever have imagined._ She squeaked in delight, “Victor, Victor! What is that magnificent building?”
 
 <!--break-->
@@ -172,8 +156,6 @@ Nellie was too shocked to refuse, but as the ground grew further and further awa
 <!--break-->
 
 ![null](/img/p25-med.jpg)
-
-TODO: Resize Medium
 
 Within seconds they were perched on the shoulder of Horatio Nelson: one of the greatest naval officers in the history of Britain and the world! Victor told her all about his great conquest of the seas and how he even lost an arm in battle. "Unfortunately for Nelson, he didn't have a friend to fix it for him." Nellie blushed, for she knew Victor was talking about how she had helped to mend his wing.
 
