@@ -7,6 +7,7 @@ description: >-
   and his family.
 x: 530
 'y': 452.5
-coverImage: /img/leicester-square-cover.jpeg
+coverImage: /images/leicester-square-cover.jpeg
+previewImage: /images/bank-preview.jpg
 ---
 story
