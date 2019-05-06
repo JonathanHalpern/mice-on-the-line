@@ -8,8 +8,8 @@ description: >-
   unless you take a trip to London Zoo.
 x: 530
 y: 480.5
-coverImage: /images/charingcross-cover.jpg
-previewImage: /images/charingcross-preview.jpg
+coverImage: /img/charingcross-cover.jpg
+previewImage: /img/charingcross-preview.jpg
 ---
 
 ![null](/img/p1-med.jpg)

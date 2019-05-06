@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: src/images
+media_folder: src/img
 public_folder: /img
 
 collections:
@@ -49,6 +49,14 @@ collections:
       - label: "y coordinate"
         name: "y"
         widget: "number"
+      - label: "Cover Image"
+        name: "coverImage"
+        widget: "image"
+        allow_multiple: false
+      - label: "Preview Image"
+        name: "previewImage"
+        widget: "image"
+        allow_multiple: false
       - label: "Pages"
         name: "body"
         widget: "pages"

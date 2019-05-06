@@ -7,8 +7,8 @@ description: >-
   unless you take a trip to London Zoo.
 x: 619.5
 y: 446.5
-coverImage: /images/bank-cover.jpg
-previewImage: /images/bank-preview.jpg
+coverImage: /img/bank-cover.jpg
+previewImage: /img/bank-preview.jpg
 ---
 
 story goes here

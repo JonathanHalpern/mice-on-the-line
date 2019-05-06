@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react"
 import { Spring } from "react-spring/renderprops"
 
-import mouse from "../../images/mouse-outline.png"
+import mouse from "../../img/mouse-outline.png"
 
 type Props = {
   x: number

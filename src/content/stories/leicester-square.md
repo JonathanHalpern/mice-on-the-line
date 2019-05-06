@@ -6,6 +6,6 @@ description: Gerald was a star. Or, at least, that's what Gerald told himself, h
 date: "2015-05-01T22:12:03.284Z"
 x: 530
 y: 452.5
-coverImage: /images/bank-cover.jpg
-previewImage: /images/bank-preview.jpg
+coverImage: /img/bank-cover.jpg
+previewImage: /img/bank-preview.jpg
 ---

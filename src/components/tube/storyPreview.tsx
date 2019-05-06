@@ -28,7 +28,7 @@ const width = 50
 const height = 50
 
 const StoryPreview: FC<Props> = ({ storyId, x, y, mouseLeave, image }) => {
-  const closeIcon = require(`../../images/close.png`)
+  const closeIcon = require(`../../img/close.png`)
   return (
     <Wrapper
       transform={`matrix(1 0 0 1 ${x - 5} ${y - 5})`}
