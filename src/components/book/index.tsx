@@ -78,14 +78,9 @@ const Container = styled.div<Container>`
   .hard {
     background-image: none;
   }
-  img[src*="#thumbnail"] {
-    width: 150px;
-    height: 100px;
-  }
 `
 
 const TurnWrapper = styled.div`
-  /* padding-top: 5px; */
   > div {
     margin: 0 auto;
   }
@@ -108,7 +103,6 @@ const getRatio = (containerRef, ideals) => {
   const { clientHeight, clientWidth } = containerRef.current
   const ratioX = (clientWidth - margins[0]) / ideals[0]
   const ratioY = (clientHeight - margins[1]) / ideals[1]
-  // console.log(ratioX, clientWidth, ratioY, clientHeight)
   return Math.min(ratioX, ratioY, 1)
 }
 
@@ -124,9 +118,7 @@ const Book: FC<Props> = ({ pages, coverImage }) => {
     if (!scale) {
       setupScale()
     } else {
-      // setOptions({ ...options, height: 0 })
       setTimeout(() => {
-        // console.log(ideals[0] * scale, ideals[1] * scale)
         setOptions({
           ...options,
           page: activePage ? activePage : undefined,
@@ -147,8 +139,13 @@ const Book: FC<Props> = ({ pages, coverImage }) => {
 
   const setupScale = () => {
     const ratio = getRatio(containerRef, ideals)
-    console.warn(ratio)
     setScale(ratio)
+    setOptions({
+      ...options,
+      page: activePage ? activePage : undefined,
+      width: ideals[0] * ratio,
+      height: ideals[1] * ratio,
+    })
   }
 
   useEffect(() => {

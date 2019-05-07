@@ -17,15 +17,15 @@ const BodyWrapper = styled.div`
 
 const OuterWrapper = styled.main<Props>`
   flex: 1;
-  background: #fff5ff;
-  padding: 10px;
+  background: #fff;
+  /* padding: 10px; */
   /* padding-top: 48px; */
   /* ${({ isScrollLockActive }) =>
     !isScrollLockActive && `overflow-y: scroll`} */
 `
 
 const Wrapper = styled.div`
-  max-width: 940px;
+  max-width: 1024px;
   margin: 0 auto;
   height: 100%;
 `
@@ -45,7 +45,7 @@ const Layout: FC<Props> = ({ children, isScrollLockActive }) => (
       }
     `}
     render={data => (
-      <ScrollLock isActive={isScrollLockActive}>
+      <>
         <Global
           styles={css`
             * {
@@ -63,7 +63,7 @@ const Layout: FC<Props> = ({ children, isScrollLockActive }) => (
           </OuterWrapper>
           <Footer />
         </BodyWrapper>
-      </ScrollLock>
+      </>
     )}
   />
 )

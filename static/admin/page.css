@@ -6,7 +6,7 @@
   background: white;
   width: 470px;
   height: 620px;
-  box-shadow: inset 0px 0px 0px 1px #eee;
+  box-shadow: inset 0 0px 0px 2px #eee !important;
   margin-bottom: 10px;
   display: flex;
   font-family: Times, serif;
@@ -54,6 +54,11 @@
 
 .book-page .justify-line {
   text-align-last: justify;
+}
+
+.book-page .center-text {
+  text-align: center;
+  display: block;
 }
 
 .page-number {

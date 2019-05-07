@@ -5,6 +5,12 @@ import Book from "../components/book"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const BookWrapper = styled.div`
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+`
+
 type Props = {
   data: {
     markdownRemark: {
@@ -35,8 +41,9 @@ class BlogPostTemplate extends React.Component<Props> {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-
-        <Book pages={pages} coverImage={coverImage} />
+        <BookWrapper>
+          <Book pages={pages} coverImage={coverImage} />
+        </BookWrapper>
       </Layout>
     )
   }

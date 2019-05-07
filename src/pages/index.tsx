@@ -9,6 +9,9 @@ import Tube from "../components/tube"
 
 const Container = styled.div`
   background: white;
+  margin: auto;
+  width: 100%;
+  height: 100%;
 `
 type Props = {
   data: StoryData
