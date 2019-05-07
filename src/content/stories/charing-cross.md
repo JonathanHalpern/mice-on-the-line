@@ -7,10 +7,11 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-'y': 480.5
+y: 480.5
 coverImage: /img/charingcross-cover.jpg
 previewImage: /img/charingcross-preview.jpg
 ---
+
 ![null](/img/p1-med.jpg)
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.

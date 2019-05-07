@@ -29,6 +29,7 @@
     "react-dom": "^16.8.4",
     "react-flip-page": "^1.5.7",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.6.1",
     "react-scrolllock": "^4.0.1",
     "react-spring": "^8.0.19",
     "sharp": "^0.22.0",
@@ -36,19 +37,19 @@
     "typescript": "^3.3.3333"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-links": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@storybook/react": "^5.0.6",
     "@types/jquery": "^3.3.29",
     "@types/react": "^16.8.13",
     "@types/react-dom": "^16.8.3",
     "@types/react-helmet": "^5.0.8",
+    "babel-loader": "^8.0.5",
     "gatsby-plugin-tslint": "^0.0.2",
     "prettier": "^1.16.4",
-    "tslint-react-hooks": "^2.0.0",
-    "@storybook/react": "^5.0.6",
-    "@storybook/addon-actions": "^5.0.6",
-    "@storybook/addon-links": "^5.0.6",
-    "@storybook/addons": "^5.0.6",
-    "@babel/core": "^7.4.3",
-    "babel-loader": "^8.0.5"
+    "tslint-react-hooks": "^2.0.0"
   },
   "keywords": [
     "mice",

@@ -11,6 +11,10 @@ const StyledFooter = styled.footer`
     color: white;
     margin: 0;
   }
+  display: block;
+  @media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 780px) {
+    display: none;
+  }
 `
 
 const Footer = () => (
