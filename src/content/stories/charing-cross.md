@@ -73,6 +73,9 @@ Nellie is a true mouse of the underground. Her eyesight is poor from spending so
 
 ![null](/img/p11-med.jpg)
 
+</br>
+</br>
+
 <span class="center-text"> Nellie is just such a mouse.</span>
 
 <!--break-->
