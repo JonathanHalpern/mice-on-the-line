@@ -29,15 +29,7 @@ const Wrapper = styled.div`
 
 const Layout: FC = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false)
-  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false)
   const containerRef = useRef(null)
-  console.log(window.innerHeight, window.innerWidth)
-  useEffect(() => {
-    if (window.innerWidth < 700 && window.innerHeight < 400) {
-      setIsLandscapeMobile(true)
-    }
-  })
-  console.log(isLandscapeMobile)
 
   return (
     <StaticQuery
@@ -68,7 +60,6 @@ const Layout: FC = ({ children }) => {
               onMenuToggle={() => {
                 setShowMenu(!showMenu)
               }}
-              isLandscapeMobile={isLandscapeMobile}
             />
             <OuterWrapper>
               <Wrapper>{children}</Wrapper>
