@@ -20,6 +20,6 @@ Here is a picture of Jonny and me on our wedding day in Thailand, on February 20
 
 I wish I remember what he said in this moment!
 
-Now I have written six stories about Mice on the London Underground and hope to write many more. One of them is complete with beautiful watercolour images; you can read it now by going to the Home Page and clicking on the mouse at Charing Cross!
+Now I have written six stories about Mice on the London Underground and hope to write many more. One of them is complete with beautiful watercolour images; you can read it now by going to the Home Page and clicking on the mouse at [Charing Cross](charing-cross)!
 
-I would love to launch my stories soon - perhaps in time for the opening of the Elizabeth Line - but in the meantime I am happy to have them here for all to read... especially for any children who love the Underground mice as much as I did! So, thanks mum and thanks Jonny for your ideas and input, and if anyone reading this wants to get in touch, please use the contact page. I look forward to hearing from you!
+I would love to launch my stories soon - perhaps in time for the opening of the Elizabeth Line - but in the meantime I am happy to have them here for all to read... especially for any children who love the Underground mice as much as I did! So, thanks mum and thanks Jonny for your ideas and input, and if anyone reading this wants to get in touch, please use the [contact page](contact). I look forward to hearing from you!

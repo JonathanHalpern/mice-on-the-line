@@ -1,7 +1,12 @@
 import React, { FC } from "react"
+import styled from "@emotion/styled"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const Container = styled.div`
+  padding: 20px;
+`
 
 type Props = {
   data: {
@@ -23,9 +28,11 @@ type Props = {
 const PlainTemplate: FC<Props> = ({ data }) => {
   const content = data.markdownRemark
   return (
-    <Layout isScrollLockActive={false}>
+    <Layout>
       <SEO title={content.frontmatter.title} description={content.excerpt} />
-      <div dangerouslySetInnerHTML={{ __html: content.html }} />
+      <Container>
+        <div dangerouslySetInnerHTML={{ __html: content.html }} />
+      </Container>
     </Layout>
   )
 }
