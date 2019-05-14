@@ -7,11 +7,10 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-y: 480.5
+'y': 480.5
 coverImage: /img/charingcross-cover.jpg
 previewImage: /img/charingcross-preview.jpg
 ---
-
 ![null](/img/p1-med.jpg)
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
@@ -115,9 +114,9 @@ He reassured her that his wing was good as new and, when the mouse was ready (or
 
 <!--break-->
 
-![null](/img/p18-med.jpg)
+![null](/img/p17-med.jpg)
 
-At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, avoiding people's footsteps, mousetraps and even the monstrous trains themselves, nothing could have prepared her for the sensation of flying six feet up in the air.
+At first, Nellie's fear was far greater than anything she had experienced before. From all her years on the underground, nothing could have prepared her for the sensation of flying six feet up in the air.
 
 <!--break-->
 
@@ -134,9 +133,9 @@ Victor asked if she was alright, and Nellie squeaked that she was fine, though h
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p21-med.jpg)
 
-She closed her eyes for the final few moments on the underground and felt, rather than saw, fresh air flatten the fur on her cheek and back. Slowly, very slowly because her eyes were not accustomed to the brightness, Nellie opened her eyelids. And what a sight to behold!
+She closed her eyes for the final few moments on the underground and felt fresh air flatten the fur on her cheek and back. Slowly, very slowly, Nellie opened her eyes. And what a sight to behold!
 
 <!--break-->
 
@@ -180,9 +179,9 @@ All this time, Victor had been keeping an eye out for his friends and family, wh
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p29-med.jpg)
 
-Before him was not only the little boy who had offered his crumbs the previous week, but also the horrible woman who had attacked Victor! She was crouched behind the column's great steps, seething with hatred as she saw the dear little boy throw crumbs to his favourite birds.
+Before him was the little boy who had offered his crumbs the previous week and also the horrible woman who had attacked Victor! She crouched behind a concrete lion, seething with hatred.
 
 <!--break-->
 
@@ -198,9 +197,9 @@ Victor's friends were delighted to see him and began cooing and ruffling their f
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p32-med.jpg)
 
-The pigeons looked around and, sure enough, they could see the hateful woman inching closer to their flock with a manic look in her eyes. They agreed that Nellie's plan should be put into place immediately in case of an imminent attack and all of the birds took flight.
+Sure enough, the pigeons could see the hateful woman inching closer to their flock with a manic look in her eyes. They agreed that Nellie's plan should be put into place immediately and all took flight.
 
 <!--break-->
 
@@ -222,25 +221,27 @@ He could not possibly have known how right he was, for in that moment Nellie tru
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![null](/img/p36-med.jpg)
 
-The birds – her ships and cannons – were primed for attack, and with a rallying squeak of: “Dis...CHARGE!” the birds swooped over the woman and released their pigeon droppings so that not a patch of her was left without smatterings of white-green slime.
-
-<!--break-->
-
-Victor looked back as he wished to see the lady's expression, but it was impossible to read under all the gloop.
-
-Nellie did manage a fleeting glance backwards. Through her poor eyesight, she thought she saw the little boy walk towards the lady and offer her something: a tissue, perhaps, to wipe her face. In that moment, she remembered what Victor had said about some people not being all that bad. Flying through the air, she considered the people she had met today and thought that, actually, they weren't too different from mice after all: some heroic, some villainous, some kind, and probably lots in between. The only real difference, is that they are an awful lot bigger.
+The birds – her ships and cannons – were primed for attack, and with a rallying squeak of: “Dis...CHARGE!” the birds swooped over the woman and released their pigeon droppings.
 
 <!--break-->
 
-Feeling tired from the day's adventures, and aware that Victor had a lot of catching up to do with his flock, she asked her companion to take her home. By now, Victor had grown accustomed to the underground and found that flying her back was much safer than taking the escalator. When they reached the bottom, the two friends cooed and squeaked their gratitude towards one another. Victor promised to take Nellie on trips out into the world so she could see more sights of London, and he remained true to his promise.
+Victor looked back as he wished to see the lady's expression, but it was impossible to read under all the gloop. Indeed, not a patch of her was left without smatterings of white-green slime.
+
+Nellie did manage a fleeting glance backwards. Through her poor eyesight, she thought she saw the little boy walk towards the lady and offer her a tissue to wipe her face. In that moment, she remembered what Victor had said about some people not all being bad. Flying through the air, she considered the people she had met and realised they weren't too different from mice after all: some heroic, some villainous, some kind, and probably lots in between. The only real difference, is that they are an awful lot bigger.
 
 <!--break-->
 
-![null](img/charing-cross-cover.jpeg)
+![](/img/p38-med.jpg)
 
-Regular daylight seemed to do wonders for Nellie's eyesight, and flying atop Trafalgar Square did wonders for her soul. Out on their adventures, they spied many different humans, good and bad, happy and sad... but they never saw the lady at Trafalgar Square again.
+Feeling tired, and aware that Victor had a lot of catching up to do with his flock, she asked her friend to fly her home. Victor promised to take Nellie on trips out into the outside world, and cooed goodbye.
+
+<!--break-->
+
+![null](/img/p39-med.jpg)
+
+Regular daylight did wonders for Nellie's eyesight and flying did wonders for her soul. Out on their adventures, they spied many different humans, good and bad, happy and sad, but they never saw the lady at Trafalgar Square again.
 
 <!--break-->
 
@@ -248,4 +249,14 @@ Regular daylight seemed to do wonders for Nellie's eyesight, and flying atop Tra
 
 <!--break-->
 
-Want to read more stories?
+Want to read more stories? Please get in touch via the contact page!
+
+Soon you will be able to read all about:
+
+Bertie from Bank, who saves the London Cheese Exchange from collapse with his wicked sense of smell.
+
+Ellie from Oxford Circus, who uses her knowledge of electricity to ensure the Christmas light display is as magnificent as ever.
+
+Harry from Covent Garden, who finds a friend and puts on a show.
+
+Gerald from Leicester Square, who learns a lesson or two about the dangers of being an actor!
