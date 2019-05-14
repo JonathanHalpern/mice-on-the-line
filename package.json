@@ -7,6 +7,8 @@
   "dependencies": {
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9",
+    "@sendgrid/mail": "^6.4.0",
+    "dotenv": "^8.0.0",
     "gatsby": "^2.1.31",
     "gatsby-image": "^2.0.33",
     "gatsby-plugin-emotion": "^4.0.6",
@@ -48,6 +50,9 @@
     "@types/react-helmet": "^5.0.8",
     "babel-loader": "^8.0.5",
     "gatsby-plugin-tslint": "^0.0.2",
+    "http-proxy-middleware": "^0.19.1",
+    "netlify-lambda": "^1.4.7",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.16.4",
     "tslint-react-hooks": "^2.0.0"
   },
@@ -62,14 +67,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "start": "run-p start:**",
+    "start:app": "npm run develop",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build": "run-p build:**",
+    "build:app": "gatsby build",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "format": "prettier --write src/**/*.{js,jsx}"
   },
   "repository": {
     "type": "git",

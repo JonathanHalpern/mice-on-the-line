@@ -46,7 +46,7 @@ const Layout: FC = ({ children }) => {
         <>
           <Global
             styles={css`
-              * {
+              p {
                 color: #4f464f;
               }
               h1 {

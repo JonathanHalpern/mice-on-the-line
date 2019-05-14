@@ -1,8 +1,21 @@
+var proxy = require("http-proxy-middleware")
+
 module.exports = {
   siteMetadata: {
     title: `Mice on the Line`,
     description: `Stories about the mice who live on the London Underground`,
     author: `Natalie Woodward`,
+  },
+  developMiddleware: app => {
+    app.use(
+      "/.netlify/functions/",
+      proxy({
+        target: "http://localhost:9000",
+        pathRewrite: {
+          "/.netlify/functions/": "",
+        },
+      })
+    )
   },
   plugins: [
     "gatsby-plugin-typescript",

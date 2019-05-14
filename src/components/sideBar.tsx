@@ -10,10 +10,31 @@ const Container = styled.div`
   z-index: 100;
   padding: 10px;
   border-bottom: 1px solid #eee;
+  transform: translateY(0);
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+`
+
+const IconContainer = styled.div`
+  cursor: pointer;
+  display: inline-block;
+`
+
+const LinkList = styled.ul`
+  list-style: none;
+  margin: 5px 0 0 0;
 `
 
 const StyledLink = styled(Link)`
-  display: block;
+  color: white;
+  text-decoration: none;
 `
 
 const pages = [
@@ -34,12 +55,16 @@ const pages = [
 const sideBar = ({ onClose }) => {
   return (
     <Container>
-      <FaTimesCircle onClick={onClose} size="1.5em" />
-      {pages.map(page => (
-        <StyledLink to={page.link} key={page.link}>
-          {page.title}
-        </StyledLink>
-      ))}
+      <IconContainer onClick={onClose}>
+        <FaTimesCircle size="1.5em" color="white" />
+      </IconContainer>
+      <LinkList>
+        {pages.map(page => (
+          <li key={page.link}>
+            <StyledLink to={page.link}>{page.title}</StyledLink>
+          </li>
+        ))}
+      </LinkList>
     </Container>
   )
 }
