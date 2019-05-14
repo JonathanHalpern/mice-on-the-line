@@ -7,10 +7,11 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-'y': 480.5
+"y": 480.5
 coverImage: /img/charingcross-cover.jpg
 previewImage: /img/charingcross-preview.jpg
 ---
+
 ![null](/img/p1-med.jpg)
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
@@ -249,14 +250,14 @@ Regular daylight did wonders for Nellie's eyesight and flying did wonders for he
 
 <!--break-->
 
-Want to read more stories? Please get in touch via the contact page!
+Want to read more stories? Please get in touch via the [contact page](contact)!
 
 Soon you will be able to read all about:
 
-Bertie from Bank, who saves the London Cheese Exchange from collapse with his wicked sense of smell.
+Bertie from [Bank](bank), who saves the London Cheese Exchange from collapse with his wicked sense of smell.
 
-Ellie from Oxford Circus, who uses her knowledge of electricity to ensure the Christmas light display is as magnificent as ever.
+Ellie from [Oxford Circus](oxford-circus), who uses her knowledge of electricity to ensure the Christmas light display is as magnificent as ever.
 
-Harry from Covent Garden, who finds a friend and puts on a show.
+Harry from [Covent Garden](covent-garden), who finds a friend and puts on a show.
 
-Gerald from Leicester Square, who learns a lesson or two about the dangers of being an actor!
+Gerald from [Leicester Square](leicster-square), who learns a lesson or two about the dangers of being an actor!
