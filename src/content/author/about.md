@@ -1,7 +1,9 @@
 ---
 templateKey: plain
 name: Natalie Woodward
+id: about
 ---
+
 Hello! My name's Natalie and I was born and grew up in London. From a young age, my mum would take me on the London Underground and point out all the little mice that scurried underneath the tracks. I was amazed at how they lived their lives among all the hustle and bustle, and wondered how they must feel when huge trains thundered over their heads!
 
 As I got older it became clear that I loved to write. Silly stories, sad stories, stories for grown ups and for young children, I enjoyed them all. Then, one day, my mum gave me the idea: "Why don't you write stories about the little mice you loved as a child?" She told me that each Underground station should have its own mouse, and that each mouse's story would be about that station. It was a wonderful idea and I promised her I would give it a go.

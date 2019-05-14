@@ -19,6 +19,7 @@ const BodyWrapper = styled.div`
 const OuterWrapper = styled.main`
   flex: 1;
   background: #fff;
+  overflow-y: scroll;
 `
 
 const Wrapper = styled.div`

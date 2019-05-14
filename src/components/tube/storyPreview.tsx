@@ -36,13 +36,15 @@ const StoryPreview: FC<Props> = ({ storyId, x, y, mouseLeave, image }) => {
     >
       <Link to={`/${storyId}`}>
         <Background width={width} height={height} />
-        <image
-          width={width}
-          height={height}
-          xlinkHref={image.publicURL}
-          x={0}
-          y={0}
-        />
+        {image && (
+          <image
+            width={width}
+            height={height}
+            xlinkHref={image.publicURL}
+            x={0}
+            y={0}
+          />
+        )}
       </Link>
       <CloseButton xlinkHref={closeIcon} x={0} y={0} onMouseDown={mouseLeave} />
     </Wrapper>

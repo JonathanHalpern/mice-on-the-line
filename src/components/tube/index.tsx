@@ -48,7 +48,6 @@ class Tube extends Component<Props, State> {
   render() {
     const { storiesMeta } = this.props
     const { hoveredStation } = this.state
-
     const story =
       storiesMeta.length > 0 &&
       storiesMeta.find(story => story.id === hoveredStation.id)
@@ -76,7 +75,6 @@ class Tube extends Component<Props, State> {
     )
   }
   setHoveredStation = (hoveredStation: Station) => {
-    console.log(hoveredStation)
     this.setState({
       hoveredStation,
     })
