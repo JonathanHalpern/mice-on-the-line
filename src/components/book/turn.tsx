@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { toast } from "react-toastify"
 import $ from "jquery"
 
 try {
@@ -16,6 +17,8 @@ type Props = {
   options: {}
   className: string
   onPageTurn: (value: any) => void
+  setTurnNext: (el: Function) => void
+  setTurnPrevious: (el: Function) => void
 }
 
 class Turn extends Component<Props> {
@@ -27,11 +30,21 @@ class Turn extends Component<Props> {
 
   componentDidMount() {
     if (this.el) {
+      this.props.setTurnNext(() => {
+        $(this.el).turn("next")
+      })
+      this.props.setTurnPrevious(() => {
+        $(this.el).turn("previous")
+      })
       $(this.el).turn(
         Object.assign({}, { ...this.props.options, ...additionalOptions })
       )
       $(this.el).bind("turning", (event, page, view) => {
         this.props.onPageTurn(page)
+      })
+      toast.info("Click the page or drag the corner", {
+        position: toast.POSITION.BOTTOM_CENTER,
+        autoClose: 8000,
       })
     }
 

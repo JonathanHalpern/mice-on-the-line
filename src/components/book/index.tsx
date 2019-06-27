@@ -5,6 +5,8 @@ import "../../../static/admin/page.css"
 
 import Turn from "./turn"
 
+let TurnNext: Function, TurnPrevious: Function
+
 type Props = {
   pages: string[]
 }
@@ -157,8 +159,23 @@ const Book: FC<Props> = ({ pages, coverImage }) => {
     <Container ref={containerRef} scale={scale}>
       {options.height !== 0 && (
         <TurnWrapper>
-          <Turn options={options} onPageTurn={setActivePage}>
-            <div key={0} className="book-page hard">
+          <Turn
+            options={options}
+            onPageTurn={setActivePage}
+            setTurnNext={(el: Function) => {
+              TurnNext = el
+            }}
+            setTurnPrevious={(el: Function) => {
+              TurnPrevious = el
+            }}
+          >
+            <div
+              key={0}
+              className="book-page hard"
+              onClick={() => {
+                TurnNext()
+              }}
+            >
               <div>
                 <h1>Mice on the Line</h1>
                 <Img fluid={coverImage.childImageSharp.fluid} />
@@ -172,6 +189,15 @@ const Book: FC<Props> = ({ pages, coverImage }) => {
                 className={`book-page ${(index === 0 ||
                   index >= pages.length - 2) &&
                   "hard"}`}
+                onClick={() => {
+                  if (TurnNext && TurnPrevious) {
+                    if (index % 2) {
+                      TurnNext()
+                    } else {
+                      TurnPrevious()
+                    }
+                  }
+                }}
               >
                 <div dangerouslySetInnerHTML={{ __html: page }} />
                 {index !== pages.length - 1 && (

@@ -33,6 +33,7 @@
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1",
     "react-spring": "^8.0.19",
+    "react-toastify": "^5.3.1",
     "sharp": "^0.22.0",
     "turn.js": "https://github.com/rizalibnu/turn.js.git",
     "typescript": "^3.3.3333"

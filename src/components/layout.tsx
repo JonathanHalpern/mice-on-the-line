@@ -3,6 +3,8 @@ import { StaticQuery, graphql } from "gatsby"
 import { Global, css } from "@emotion/core"
 import styled from "@emotion/styled"
 
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 import Header from "./header"
 import Footer from "./footer"
 import SideBar from "./sideBar"
@@ -73,6 +75,8 @@ const Layout: FC = ({ children }) => {
                 }}
               />
             )}
+
+            <ToastContainer />
           </BodyWrapper>
         </>
       )}

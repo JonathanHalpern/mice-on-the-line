@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import styled from "@emotion/styled"
+import { toast } from "react-toastify"
 
 import River from "./river"
 import Lines from "./lines"
@@ -41,6 +42,11 @@ const yOffset = 378
 class Tube extends Component<Props, State> {
   constructor(props: Props) {
     super(props)
+
+    toast.info("Hover over a station, to see which mouse lives there", {
+      position: toast.POSITION.BOTTOM_CENTER,
+      autoClose: false,
+    })
     this.state = {
       hoveredStation: nullStation,
     }
