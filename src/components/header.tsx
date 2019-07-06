@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { FaBars } from "react-icons/fa"
+import SignIn from "../components/signIn"
 import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
@@ -74,6 +75,7 @@ const Header = ({ siteTitle, onMenuToggle }) => {
           <Title>
             <StyledLink to="/">{siteTitle}</StyledLink>
           </Title>
+          <SignIn />
         </Content>
       </StyledHeader>
     </>

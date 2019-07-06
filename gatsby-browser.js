@@ -5,3 +5,19 @@
  */
 
 // You can delete this file if you're not using it
+
+// ./gatsby-browser.js
+/* eslint-disable react/prop-types, import/no-extraneous-dependencies */
+import React from "react"
+import { Router } from "react-router-dom"
+import FirebaseProvider from "./src/containers/FirebaseProvider"
+
+import firebase from "./src/services/firebase"
+
+export const wrapRootElement = ({ element }) => {
+  const ConnectedRootElement = (
+    <FirebaseProvider firebase={firebase}>{element}</FirebaseProvider>
+  )
+
+  return ConnectedRootElement
+}
