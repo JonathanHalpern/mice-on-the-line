@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { FaBars } from "react-icons/fa"
+import SignIn from "../components/signIn"
 import styled from "@emotion/styled"
 
 const StyledHeader = styled.header`
@@ -56,6 +57,10 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `
 
+const RightContent = styled.div`
+  float: right;
+`
+
 const BurgerMenu = ({ onClick }) => (
   <BurgerWrapper>
     <FaBars onClick={onClick} size="1.7em" />
@@ -74,6 +79,9 @@ const Header = ({ siteTitle, onMenuToggle }) => {
           <Title>
             <StyledLink to="/">{siteTitle}</StyledLink>
           </Title>
+          <RightContent>
+            <SignIn />
+          </RightContent>
         </Content>
       </StyledHeader>
     </>
