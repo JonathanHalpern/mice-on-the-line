@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Book from "../components/book"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Auth from "../containers/Auth"
 
 const BookWrapper = styled.div`
   padding: 10px;
@@ -41,15 +42,35 @@ class BlogPostTemplate extends React.Component<Props> {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <BookWrapper>
-          <Book pages={pages} coverImage={coverImage} />
-        </BookWrapper>
+        <Auth>
+          {auth => {
+            console.log(auth)
+            return auth.isAuthed ? (
+              <BookWrapper>
+                <Book pages={pages} coverImage={coverImage} />
+              </BookWrapper>
+            ) : (
+              <div>
+                <SignInMessage>
+                  Sign in to read stories! If you do not have a password,
+                  contact Natalie via the Contact page.
+                </SignInMessage>
+              </div>
+            )
+          }}
+        </Auth>
       </Layout>
     )
   }
 }
 
 export default BlogPostTemplate
+
+const SignInMessage = styled.p`
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+`
 
 export const pageQuery = graphql`
   query storyById($id: String!) {

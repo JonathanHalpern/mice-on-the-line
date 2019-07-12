@@ -72,16 +72,7 @@ const Layout: FC = ({ children }) => {
               }}
             />
             <OuterWrapper>
-              <Auth>
-                {auth => {
-                  console.log(auth)
-                  return auth.isAuthed ? (
-                    <Wrapper>{children}</Wrapper>
-                  ) : (
-                    <p>Need to sign in</p>
-                  )
-                }}
-              </Auth>
+              <Wrapper>{children}</Wrapper>
             </OuterWrapper>
             <Footer />
             {showMenu && (
