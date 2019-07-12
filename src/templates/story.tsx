@@ -5,6 +5,7 @@ import Book from "../components/book"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Auth from "../containers/Auth"
+import SignIn from "../components/signIn"
 
 const BookWrapper = styled.div`
   padding: 10px;
@@ -50,12 +51,13 @@ class BlogPostTemplate extends React.Component<Props> {
                 <Book pages={pages} coverImage={coverImage} />
               </BookWrapper>
             ) : (
-              <div>
+              <CentreContent>
                 <SignInMessage>
                   Sign in to read stories! If you do not have a password,
                   contact Natalie via the Contact page.
                 </SignInMessage>
-              </div>
+                <SignIn />
+              </CentreContent>
             )
           }}
         </Auth>
@@ -66,9 +68,14 @@ class BlogPostTemplate extends React.Component<Props> {
 
 export default BlogPostTemplate
 
+const CentreContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 const SignInMessage = styled.p`
   margin-top: 30px;
-  text-align: center;
   font-size: 16px;
 `
 

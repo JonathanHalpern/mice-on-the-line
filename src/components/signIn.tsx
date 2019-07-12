@@ -6,23 +6,6 @@ import Auth from "../containers/Auth"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 
-const Container = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 5px 10px;
-  color: rgba(0, 0, 0, 0.54);
-  border: none;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  background-color: white;
-  cursor: pointer;
-  transition: color 200ms linear;
-  &:hover {
-    color: rgba(0, 0, 0, 0.8);
-  }
-`
-
 const SignIn = () => {
   const [open, setOpen] = React.useState(false)
   const [email, setEmail] = useState("")
@@ -51,13 +34,15 @@ const SignIn = () => {
       {auth => {
         return (
           <>
-            <Container
+            <Button
               onClick={() => {
                 auth.isAuthed ? auth.signOut() : handleOpen()
               }}
+              color="primary"
+              variant="contained"
             >
               sign {auth.isAuthed ? "out" : "in"}
-            </Container>
+            </Button>
             <Modal
               aria-labelledby="simple-modal-title"
               aria-describedby="simple-modal-description"

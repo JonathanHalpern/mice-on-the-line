@@ -2,7 +2,6 @@ import React from "react"
 import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import { FaTimesCircle } from "react-icons/fa"
-import SignIn from "./signIn"
 
 const Container = styled.div`
   position: fixed;
@@ -65,10 +64,6 @@ const sideBar = ({ onClose }) => {
             <StyledLink to={page.link}>{page.title}</StyledLink>
           </li>
         ))}
-
-        <li>
-          <SignIn />
-        </li>
       </LinkList>
     </Container>
   )
