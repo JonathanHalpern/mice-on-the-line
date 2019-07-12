@@ -2,7 +2,7 @@
   "name": "mice-on-the-line",
   "private": true,
   "description": "A showcase of Mice on the Line stories",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jonathan Halpern <jonnyhalpern@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.9",
@@ -34,7 +34,6 @@
     "react-flip-page": "^1.5.7",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1",
-    "react-router-dom": "^5.0.1",
     "react-spring": "^8.0.19",
     "react-toastify": "^5.3.1",
     "sharp": "^0.22.0",
