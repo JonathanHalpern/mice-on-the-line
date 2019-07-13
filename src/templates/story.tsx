@@ -31,39 +31,41 @@ type Props = {
   }
 }
 
-class BlogPostTemplate extends React.Component<Props> {
-  render() {
-    const post = this.props.data.markdownRemark
-    const { coverImage } = post.frontmatter
-    const pages = post.html.split("<!--break-->")
+const BlogPostTemplate = props => {
+  const audioTracks = props.data.audios.edges.map(edge => edge.node)
+  const post = props.data.markdownRemark
+  const { coverImage } = post.frontmatter
+  const pages = post.html.split("<!--break-->")
 
-    return (
-      <Layout isScrollLockActive={false}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
-        <Auth>
-          {auth => {
-            console.log(auth)
-            return auth.isAuthed ? (
-              <BookWrapper>
-                <Book pages={pages} coverImage={coverImage} />
-              </BookWrapper>
-            ) : (
-              <CentreContent>
-                <SignInMessage>
-                  Sign in to read stories! If you do not have a password,
-                  contact Natalie via the Contact page.
-                </SignInMessage>
-                <SignIn />
-              </CentreContent>
-            )
-          }}
-        </Auth>
-      </Layout>
-    )
-  }
+  return (
+    <Layout isScrollLockActive={false}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
+      <Auth>
+        {auth => {
+          return auth.isAuthed ? (
+            <BookWrapper>
+              <Book
+                pages={pages}
+                coverImage={coverImage}
+                audioTracks={audioTracks}
+              />
+            </BookWrapper>
+          ) : (
+            <CentreContent>
+              <SignInMessage>
+                Sign in to read stories! If you do not have a password, contact
+                Natalie via the Contact page.
+              </SignInMessage>
+              <SignIn />
+            </CentreContent>
+          )
+        }}
+      </Auth>
+    </Layout>
+  )
 }
 
 export default BlogPostTemplate
@@ -100,6 +102,18 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+    }
+    # audio: file(relativeDirectory: { eq: $id }, extension: { eq: "mp3" }) {
+    #   publicURL
+    # }
+    audios: allFile(
+      filter: { extension: { eq: "mp3" }, relativeDirectory: { eq: $id } }
+    ) {
+      edges {
+        node {
+          publicURL
         }
       }
     }

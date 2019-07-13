@@ -8,9 +8,6 @@ import "react-toastify/dist/ReactToastify.css"
 import Header from "./header"
 import Footer from "./footer"
 import SideBar from "./sideBar"
-import Auth from "../containers/Auth"
-import SignIn from "../components/signIn"
-import GoogleIcon from "../components/google"
 import "./layout.css"
 import "../style/font-face.css"
 
@@ -31,10 +28,6 @@ const Wrapper = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   height: 100%;
-`
-
-const StyledGoogleIcon = styled(GoogleIcon)`
-  margin-right: 5px;
 `
 
 const Layout: FC = ({ children }) => {

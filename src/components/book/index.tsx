@@ -1,6 +1,7 @@
 import React, { FC, useState, useRef, useEffect } from "react"
 import styled from "@emotion/styled"
 import Img from "gatsby-image"
+import AudioPlayer from "../audioPlayer"
 import "../../../static/admin/page.css"
 
 import Turn from "./turn"
@@ -108,11 +109,16 @@ const getRatio = (containerRef, ideals) => {
   return Math.min(ratioX, ratioY, 1)
 }
 
-const Book: FC<Props> = ({ pages, coverImage }) => {
+const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   const [activePage, setActivePage] = useState(0)
+  const [autoPlay, setAutoPlay] = useState(false)
   const [options, setOptions] = useState(initialOptions)
   const [scale, setScale] = useState(null)
   const containerRef = useRef(null)
+  const audioTrackIndex = Math.floor(activePage / 2)
+  const audioFile = audioTracks[audioTrackIndex].publicURL
+
+  console.log(activePage, audioFile, audioTracks)
 
   const ideals = [940, 620]
 
@@ -157,6 +163,16 @@ const Book: FC<Props> = ({ pages, coverImage }) => {
 
   return (
     <Container ref={containerRef} scale={scale}>
+      <AudioPlayer
+        soundFile={audioFile}
+        autoPlay={autoPlay}
+        setAutoPlay={setAutoPlay}
+        onEnded={() => {
+          if (autoPlay) {
+            TurnNext()
+          }
+        }}
+      />
       {options.height !== 0 && (
         <TurnWrapper>
           <Turn
