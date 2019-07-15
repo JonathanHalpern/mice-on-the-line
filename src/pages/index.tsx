@@ -6,6 +6,7 @@ import { StoryData } from "../../types"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tube from "../components/tube"
+import { ToastContainer } from "react-toastify"
 
 const Container = styled.div`
   background: white;
@@ -19,6 +20,7 @@ type Props = {
 
 const IndexPage: FC<Props> = ({ data }) => (
   <Layout isScrollLockActive={true}>
+    <ToastContainer />
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Container>
       <Tube

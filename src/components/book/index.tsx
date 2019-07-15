@@ -1,6 +1,7 @@
 import React, { FC, useState, useRef, useEffect } from "react"
 import styled from "@emotion/styled"
 import Img from "gatsby-image"
+import { toast } from "react-toastify"
 import AudioPlayer from "../audioPlayer"
 import "../../../static/admin/page.css"
 
@@ -116,7 +117,8 @@ const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   const [scale, setScale] = useState(null)
   const containerRef = useRef(null)
   const audioTrackIndex = Math.floor(activePage / 2)
-  const audioFile = audioTracks[audioTrackIndex].publicURL
+  const audioFile =
+    audioTracks[audioTrackIndex] && audioTracks[audioTrackIndex].publicURL
 
   console.log(activePage, audioFile, audioTracks)
 
@@ -157,22 +159,29 @@ const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   }
 
   useEffect(() => {
+    toast.info("Click the page or drag the corner", {
+      position: toast.POSITION.BOTTOM_CENTER,
+      autoClose: false,
+    })
     window.addEventListener("resize", debouncedSetupScale)
     return () => window.removeEventListener("resize", debouncedSetupScale)
   }, [])
 
   return (
     <Container ref={containerRef} scale={scale}>
-      <AudioPlayer
-        soundFile={audioFile}
-        autoPlay={autoPlay}
-        setAutoPlay={setAutoPlay}
-        onEnded={() => {
-          if (autoPlay) {
-            TurnNext()
-          }
-        }}
-      />
+      {audioFile && (
+        <AudioPlayer
+          soundFile={audioFile}
+          autoPlay={autoPlay}
+          setAutoPlay={setAutoPlay}
+          onEnded={() => {
+            if (autoPlay) {
+              TurnNext()
+            }
+          }}
+        />
+      )}
+
       {options.height !== 0 && (
         <TurnWrapper>
           <Turn

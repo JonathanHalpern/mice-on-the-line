@@ -105,11 +105,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    # audio: file(relativeDirectory: { eq: $id }, extension: { eq: "mp3" }) {
-    #   publicURL
-    # }
     audios: allFile(
       filter: { extension: { eq: "mp3" }, relativeDirectory: { eq: $id } }
+      sort: { order: ASC, fields: name }
     ) {
       edges {
         node {

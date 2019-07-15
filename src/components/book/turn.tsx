@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { toast } from "react-toastify"
 import $ from "jquery"
 
 try {
@@ -41,10 +40,6 @@ class Turn extends Component<Props> {
       )
       $(this.el).bind("turning", (event, page, view) => {
         this.props.onPageTurn(page)
-      })
-      toast.info("Click the page or drag the corner", {
-        position: toast.POSITION.BOTTOM_CENTER,
-        autoClose: 8000,
       })
     }
 
