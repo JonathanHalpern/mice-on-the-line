@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import { StoryData } from "../../types"
 
-import Layout from "../components/layout"
+import Layout from "../containers/Layout"
 import SEO from "../components/seo"
 import Tube from "../components/tube"
 import { ToastContainer } from "react-toastify"

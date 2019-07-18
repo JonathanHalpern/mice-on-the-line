@@ -1,7 +1,7 @@
 import React, { FC } from "react"
 import styled from "@emotion/styled"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../containers/Layout"
 import SEO from "../components/seo"
 
 const Container = styled.div`

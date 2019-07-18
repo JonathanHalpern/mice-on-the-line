@@ -5,10 +5,10 @@ import styled from "@emotion/styled"
 
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-import Header from "./header"
-import Footer from "./footer"
-import SideBar from "./sideBar"
-import "./layout.css"
+import Header from "../components/header"
+import Footer from "../components/footer"
+import SideBar from "../components/sideBar"
+import "../style/layout.css"
 import "../style/font-face.css"
 
 const BodyWrapper = styled.div`
@@ -30,7 +30,11 @@ const Wrapper = styled.div`
   height: 100%;
 `
 
-const Layout: FC = ({ children }) => {
+interface LayoutProps {
+  isScrollLockActive?: boolean
+}
+
+const Layout: FC<LayoutProps> = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false)
   const containerRef = useRef(null)
 

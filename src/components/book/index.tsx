@@ -1,6 +1,6 @@
 import React, { FC, useState, useRef, useEffect } from "react"
 import styled from "@emotion/styled"
-import Img from "gatsby-image"
+import Img, { GatsbyImageProps } from "gatsby-image"
 import { toast } from "react-toastify"
 import AudioPlayer from "../audioPlayer"
 import "../../../static/admin/page.css"
@@ -9,8 +9,14 @@ import Turn from "./turn"
 
 let TurnNext: Function, TurnPrevious: Function
 
+type AudioTrack = {
+  publicURL: string
+}
+
 type Props = {
   pages: string[]
+  coverImage: GatsbyImageProps
+  audioTracks: AudioTrack[]
 }
 
 type Options = {
@@ -119,7 +125,7 @@ const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   const audioTrackIndex = Math.floor(activePage / 2)
   const audioFile =
     audioTracks[audioTrackIndex] && audioTracks[audioTrackIndex].publicURL
-
+  console.log(audioTrackIndex, audioTracks)
   console.log(activePage, audioFile, audioTracks)
 
   const ideals = [940, 620]
@@ -161,7 +167,7 @@ const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   useEffect(() => {
     toast.info("Click the page or drag the corner", {
       position: toast.POSITION.BOTTOM_CENTER,
-      autoClose: false,
+      autoClose: 7000,
     })
     window.addEventListener("resize", debouncedSetupScale)
     return () => window.removeEventListener("resize", debouncedSetupScale)

@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
 
-import Layout from "../components/layout"
+import Layout from "../containers/Layout"
 import SEO from "../components/seo"
 import Contact from "../components/contact"
 
