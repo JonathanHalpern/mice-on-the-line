@@ -7,20 +7,19 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-"y": 480.5
+'y': 480.5
 coverImage: /img/charingcross-cover.jpg
 previewImage: /img/charingcross-preview.jpg
 ---
-
 ![null](/img/p1-med.jpg)
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
 
 <!--break-->
 
-However, two creatures you are extremely likely to find here are pigeons and mice. With so many around, it is small wonder that these rather different creatures have come to learn each other's languages. This skill proves particularly useful is when one or the other is lost and needs some directions from its land-dwelling or sky-flying companion.
+However, two creatures you are extremely likely to find here are pigeons and mice. With so many around, it is small wonder that these rather different creatures have come to learn each other's languages. This skill proves particularly useful when one or the other is lost and needs some directions from its land-dwelling or sky-flying companion.
 
-This just so happened to be the case one afternoon at Trafalgar Square, when a pigeon followed a lady into the London Underground. The lady in question wore a grumpy expression on her long, grey face. Her clothing was speckled with flecks of white.
+This just so happened to be the case one afternoon at Trafalgar Square, when a pigeon followed a lady into the London Underground. The lady in question wore a grumpy expression on her long, grey face.
 
 <!--break-->
 
@@ -30,7 +29,7 @@ Moments before, she had been standing in the hustle and bustle of Trafalgar Squa
 
 <!--break-->
 
-“There's enough of these disease-riddled scumbags in London already without you feeding them, thoughtless child!” The little boy had begun to cry, for he had carried the crumbs with him all morning just to feed the birds. Outraged, the child's parents had rushed over to the woman, demanding she give the bread back. However, the lady held on to the bag so tightly that, when the boy's father reached over to grab it, the plastic ripped and both boy and lady were covered head to toe in crumbs.
+“There's enough of these disease-riddled scumbags in London already without you feeding them, thoughtless child!” The little boy had begun to cry, for he had carried the crumbs with him all morning just to feed the birds. Outraged, the child's parents had rushed over to the woman, demanding that she give the bread back. However, the lady held on to the bag so tightly that, when the boy's father reached over to grab it, the plastic ripped and both boy and lady were covered head to toe in crumbs.
 
 At this, the boy delighted. Pigeons from all around were coming to peck bread from his laces to his hair.
 
@@ -103,11 +102,11 @@ Over the next week, Victor's wing began to heal. Nellie took care of her new com
 
 <!--break-->
 
-Meanwhile, the two struck up an unlikely friendship. When it came to the point where Victor was ready to fly up the escalator and back to the surface, Nellie felt happy that her new friend felt better, but sad that they might never see each other again. After all, what use does a pigeon have for the underground when he can fly across the city? On the other hand, she thought to herself, I am an old mouse and this might be my last chance to see the outside world. With this thought spurring her on, Nellie told Victor that she would take him up on his offer to see the world. Both creatures went to sleep that night dreaming of their big day ahead.
+Meanwhile, the two struck up an unlikely friendship. When it came to the point when Victor was ready to fly up the escalator and back to the surface, Nellie felt happy that her new friend felt better, but sad that they might never see each other again. After all, what use does a pigeon have for the underground when he can fly across the city? On the other hand, she thought to herself, I am an old mouse and this might be my last chance to see the outside world. With this thought spurring her on, Nellie told Victor that she would take him up on his offer to see the world. Both creatures went to sleep that night dreaming of their big day ahead.
 
 <!--break-->
 
-Unlike people, mice and pigeons do not need to do all that much to get ready in the morning. They do not get dressed or brush their teeth and they have no blankets to curl back up in on a cold day. Therefore, as soon as Victor and Nellie were awake (and after a little cleaning of the feathers and behind the ears), they were ready to face the day.
+Unlike people, mice and pigeons do not need to do all that much to get ready in the morning. They do not get dressed or brush their teeth and they have no blankets to curl back up into on a cold day. Therefore, as soon as Victor and Nellie were awake (and after a little cleaning of the feathers and behind the ears), they were ready to face the day.
 
 At first, Nellie perched awkwardly on Victor, scared to hurt her friend's newly recovered wing, but Victor ruffled his feathers around the little mouse, creating a comfy seat.
 
@@ -142,7 +141,7 @@ She closed her eyes for the final few moments on the underground and felt fresh 
 
 Flickering orange lights had been replaced by warm sunshine, trains gave way to cars and bikes of all different colours and sizes, the billboards she had seen plastered on walls were now everywhere, from lamp-posts to great double-decker buses. What struck Nellie most was the fact that there was no ceiling above her, just endless blue sky (for Victor brought Nellie out to see London on a beautiful summer's day. Perhaps her opinion would be quite different if it had been drizzling and grey!)
 
-And there in front of her, cutting through that great blue sky, was the single tallest thing Nellie had ever seen.
+And there, right in front of her, cutting through that great blue sky, was the single tallest thing Nellie had ever seen.
 
 <!--break-->
 
@@ -172,11 +171,11 @@ It was while she sat thinking of how tremendous it would be to lead a boat into 
 
 “Don't look so shocked, Nellie, this is where all us pigeons leave our droppings!”
 
-Nellie was too dumbfounded to speak, thinking her pigeon compatriot too polite for such vile behaviour, so Victor continued: “It's rather better for the humans if we do our business all the way up here where no one can see, rather than down there where they could slip up and hurt themselves.” Nellie could not fault her friend's logic, but thought it rather disrespectful to poop on such a great historical figure all the same.
+Nellie was too dumbfounded to speak, thinking her pigeon companion too polite for such vile behaviour, so Victor continued: “It's rather better for the humans if we do our business all the way up here where no one can see, rather than down there where they could slip up and hurt themselves.” Nellie could not fault her friend's logic, but thought it disrespectful to poop on such a great historical figure all the same.
 
 <!--break-->
 
-All this time, Victor had been keeping an eye out for his friends and family, whom he was certain would be worried about his disappearance. Suddenly, he recognised a passing pigeon and tracked where she was heading. Down his pigeon-friend spiralled until she landed at the foot of the statue, where Victor saw a great flock of fellow pigeons. Excitedly, he asked Nellie to hop upon his back and the pair of them flew towards his friends. Just before landing, Victor recognised two faces in the crowds. He could not believe his eyes!
+All this time, Victor had been keeping an eye out for his friends and family, whom he was certain would be worried about his disappearance. Suddenly, he recognised a passing pigeon and tracked where she was heading. Down his pigeon-friend spiralled until she landed at the foot of the statue, where Victor saw a great flock of fellow pigeons. Excitedly, he asked Nellie to hop upon his back and the pair of them flew towards his friends. Just before landing, Victor recognised two faces in the crowd. He could not believe his eyes!
 
 <!--break-->
 
@@ -188,7 +187,7 @@ Before him was the little boy who had offered his crumbs the previous week and a
 
 Nellie felt the bird's feathers ruffle uneasily and asked him what was wrong. Victor pointed out the two figures with his beak and told the mouse what he had seen. Was he to return to his flock only to see the same frightful woman attack him once more? Then, something remarkable happened.
 
-Nellie, who up until this day had been a shy, unassuming mouse, who had avoided contact with human beings at all costs, and who thought she would spend the remainder of her days living in solitude on the London Underground, came up with a masterful plan.
+Nellie, who until this day had been a shy, unassuming mouse, who had avoided contact with human beings at all costs, and who thought she would spend the remainder of her days living in solitude on the London Underground, came up with a masterful plan.
 
 <!--break-->
 
@@ -230,13 +229,13 @@ The birds – her ships and cannons – were primed for attack, and with a rally
 
 Victor looked back as he wished to see the lady's expression, but it was impossible to read under all the gloop. Indeed, not a patch of her was left without smatterings of white-green slime.
 
-Nellie did manage a fleeting glance backwards. Through her poor eyesight, she thought she saw the little boy walk towards the lady and offer her a tissue to wipe her face. In that moment, she remembered what Victor had said about some people not all being bad. Flying through the air, she considered the people she had met and realised they weren't too different from mice after all: some heroic, some villainous, some kind, and probably lots in between. The only real difference, is that they are an awful lot bigger.
+Nellie did manage a fleeting glance backwards. Through her poor eyesight, she thought she saw the little boy walk towards the lady and offer her a tissue to wipe her face. In that moment, she remembered what Victor had said about people not all being bad. Flying through the air, she considered the people she had met and realised they weren't too different from mice after all: some heroic, some villainous, some kind, and probably lots in between. The only real difference, is that they are an awful lot bigger.
 
 <!--break-->
 
 ![](/img/p38-med.jpg)
 
-Feeling tired, and aware that Victor had a lot of catching up to do with his flock, she asked her friend to fly her home. Victor promised to take Nellie on trips out into the outside world, and cooed goodbye.
+Feeling tired, and aware that Victor had a lot of catching up to do with his flock, she asked her friend to fly her home. Victor promised to take Nellie on trips into the outside world, and cooed goodbye.
 
 <!--break-->
 
