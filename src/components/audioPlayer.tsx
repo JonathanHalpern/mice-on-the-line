@@ -1,4 +1,4 @@
-import React, { useRef, FC } from "react"
+import React, { useRef, useEffect, FC } from "react"
 
 import { Media, Player, controls } from "react-media-player"
 const { PlayPause, CurrentTime, Duration, SeekBar } = controls
@@ -20,11 +20,20 @@ const AudioPlayer: FC<AudioPlayerProps> = ({
   onEnded,
 }) => {
   const containerRef = useRef(null)
+  useEffect(() => {
+    if (autoPlay) {
+      setTimeout(() => {
+        if (autoPlay && containerRef && containerRef.current) {
+          containerRef.current.play()
+        }
+      }, 600)
+    }
+  }, [autoPlay, soundFile])
   return (
     <Media ref={containerRef}>
       <MediaContainer>
         <div className="media-player">
-          <Player src={soundFile} onEnded={onEnded} autoPlay={autoPlay} />
+          <Player src={soundFile} onEnded={onEnded} />
         </div>
         <MediaControls>
           <CurrentTime />
