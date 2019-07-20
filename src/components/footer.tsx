@@ -1,4 +1,4 @@
-import React from "react"
+import React, { FC } from "react"
 import styled from "@emotion/styled"
 
 const StyledFooter = styled.footer`
@@ -16,7 +16,7 @@ const StyledFooter = styled.footer`
   }
 `
 
-const Footer = () => (
+const Footer: FC = () => (
   <StyledFooter>
     <p>© 2019 Natalie Woodward</p>
   </StyledFooter>

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { FC } from "react"
 import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import { FaTimesCircle } from "react-icons/fa"
@@ -52,7 +52,11 @@ const pages = [
   },
 ]
 
-const sideBar = ({ onClose }) => {
+interface sideBarProps {
+  onClose: () => void
+}
+
+const sideBar: FC<sideBarProps> = ({ onClose }) => {
   return (
     <Container>
       <IconContainer onClick={onClose}>

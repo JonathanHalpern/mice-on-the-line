@@ -46,7 +46,7 @@ const AudioPlayer: FC<AudioPlayerProps> = ({
                 checked={autoPlay}
                 onChange={e => {
                   let shouldAutoPlay = e.target.checked
-                  if (shouldAutoPlay) {
+                  if (shouldAutoPlay && containerRef && containerRef.current) {
                     containerRef.current.play()
                   }
                   setAutoPlay(shouldAutoPlay)

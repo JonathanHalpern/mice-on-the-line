@@ -1,12 +1,12 @@
 // ./src/components/SignIn/index.js
-import React, { useState } from "react"
+import React, { useState, useCallback, FC } from "react"
 import styled from "@emotion/styled"
 import Modal from "@material-ui/core/Modal"
 import Auth from "../containers/Auth"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 
-const SignIn = () => {
+const SignIn: FC = () => {
   const [open, setOpen] = React.useState(false)
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
@@ -29,6 +29,11 @@ const SignIn = () => {
       console.log("fail")
     }
   }
+
+  const onAuthClick = auth => {
+    auth.isAuthed ? auth.signOut() : handleOpen()
+  }
+
   return (
     <Auth>
       {auth => {
@@ -36,7 +41,7 @@ const SignIn = () => {
           <>
             <Button
               onClick={() => {
-                auth.isAuthed ? auth.signOut() : handleOpen()
+                onAuthClick(auth)
               }}
               color="primary"
               variant="contained"

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, SyntheticEvent, FC } from "react"
 import styled from "@emotion/styled"
 
 const { API } = process.env
@@ -15,14 +15,14 @@ const StyledForm = styled.form`
   }
 `
 
-const contact = () => {
+const contact: FC = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [isSent, setIsSent] = useState(false)
   const [isErrored, setIsErrored] = useState(false)
 
-  const handleSubmit = evt => {
+  const handleSubmit = (evt: SyntheticEvent) => {
     evt.preventDefault()
     fetch(`${API}/contactForm`, {
       method: "post",
@@ -68,11 +68,7 @@ const contact = () => {
           onChange={e => setEmail(e.target.value)}
         />
         <p>Message</p>
-        <textarea
-          type="text"
-          value={message}
-          onChange={e => setMessage(e.target.value)}
-        />
+        <textarea value={message} onChange={e => setMessage(e.target.value)} />
         <input type="submit" value="Submit" />
       </StyledForm>
       {isSent && <p>Thanks for messaging, I'll be in touch</p>}

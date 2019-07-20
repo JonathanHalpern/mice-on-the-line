@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { FC } from "react"
 import { FaBars } from "react-icons/fa"
 import SignIn from "../components/signIn"
 import styled from "@emotion/styled"
@@ -61,13 +61,22 @@ const RightContent = styled.div`
   float: right;
 `
 
-const BurgerMenu = ({ onClick }) => (
+interface BurgerMenuProps {
+  onClick: () => void
+}
+
+const BurgerMenu = ({ onClick }: BurgerMenuProps) => (
   <BurgerWrapper>
     <FaBars onClick={onClick} size="1.7em" />
   </BurgerWrapper>
 )
 
-const Header = ({ siteTitle, onMenuToggle }) => {
+interface HeaderProps {
+  siteTitle: string
+  onMenuToggle: () => void
+}
+
+const Header: FC<HeaderProps> = ({ siteTitle, onMenuToggle }) => {
   return (
     <>
       <LandscapeMobile>

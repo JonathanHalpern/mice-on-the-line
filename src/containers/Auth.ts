@@ -6,16 +6,27 @@ interface SignIn {
   password: string
 }
 
+interface User {
+  uid: string
+  isAnonymous?: boolean
+  email: string
+  displayName: string
+  photoURL: string
+}
 const INITIAL_STATE = {
   uid: "",
-  isAnonymous: null,
+  isAnonymous: undefined,
   // // some other properties from the user object that may be useful
   email: "",
   displayName: "",
   photoURL: "",
 }
 
-class Auth extends React.Component {
+interface AuthProps {}
+
+interface AuthState extends User {}
+
+class Auth extends React.Component<AuthProps, AuthState> {
   static propTypes = {
     children: PropTypes.func.isRequired,
   }
@@ -55,7 +66,7 @@ class Auth extends React.Component {
     return auth().signOut()
   }
 
-  signIn(user) {
+  signIn(user: User) {
     const { uid, isAnonymous, email, displayName, photoURL } = user
 
     this.setState({
