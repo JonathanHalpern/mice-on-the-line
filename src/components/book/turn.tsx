@@ -29,6 +29,16 @@ class Turn extends Component<Props> {
 
   componentDidMount() {
     if (this.el) {
+      $(this.el).bind("start", function(event, pageObject, corner) {
+        if (
+          corner == "tl" ||
+          corner == "tr" ||
+          corner == "bl" ||
+          corner == "br"
+        ) {
+          event.preventDefault()
+        }
+      })
       this.props.setTurnNext(() => {
         $(this.el).turn("next")
       })
