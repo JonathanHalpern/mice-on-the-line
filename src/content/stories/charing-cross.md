@@ -7,10 +7,11 @@ description: >-
   snakes, zebras or poisonous frogs walking the streets of England's capital
   unless you take a trip to London Zoo.
 x: 530
-'y': 480.5
+"y": 480.5
 coverImage: /img/charingcross-cover.jpg
 previewImage: /img/charingcross-preview.jpg
 ---
+
 ![null](/img/p1-med.jpg)
 
 Some creatures are rare in London. You are unlikely to find giraffes or snakes, zebras or poisonous frogs walking the streets of England's capital unless you take a trip to London Zoo.
@@ -171,7 +172,7 @@ It was while she sat thinking of how tremendous it would be to lead a boat into 
 
 “Don't look so shocked, Nellie, this is where all us pigeons leave our droppings!”
 
-Nellie was too dumbfounded to speak, thinking her pigeon companion too polite for such vile behaviour, so Victor continued: “It's rather better for the humans if we do our business all the way up here where no one can see, rather than down there where they could slip up and hurt themselves.” Nellie could not fault her friend's logic, but thought it disrespectful to poop on such a great historical figure all the same.
+Nellie was too dumbfounded to speak, thinking her pigeon companion too polite for such vile behaviour, so Victor continued: “It's better for the humans if we do our business all the way up here where no one can see, rather than down there where they could slip up and hurt themselves.” Nellie could not fault her friend's logic, but thought it disrespectful to poop on such a great historical figure all the same.
 
 <!--break-->
 

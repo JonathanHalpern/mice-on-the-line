@@ -125,8 +125,6 @@ const Book: FC<Props> = ({ pages, coverImage, audioTracks }) => {
   const audioTrackIndex = Math.floor(activePage / 2)
   const audioFile =
     audioTracks[audioTrackIndex] && audioTracks[audioTrackIndex].publicURL
-  console.log(audioTrackIndex, audioTracks)
-  console.log(activePage, audioFile, audioTracks)
 
   const ideals = [940, 620]
 

@@ -32,7 +32,9 @@ type Props = {
 }
 
 const BlogPostTemplate = props => {
-  const audioTracks = props.data.audios.edges.map(edge => edge.node)
+  const audioTracks = props.data.audios.edges
+    .map(edge => edge.node)
+    .sort((a, b) => a.name - b.name)
   const post = props.data.markdownRemark
   const { coverImage } = post.frontmatter
   const pages = post.html.split("<!--break-->")
@@ -107,10 +109,10 @@ export const pageQuery = graphql`
     }
     audios: allFile(
       filter: { extension: { eq: "mp3" }, relativeDirectory: { eq: $id } }
-      sort: { order: ASC, fields: name }
     ) {
       edges {
         node {
+          name
           publicURL
         }
       }
