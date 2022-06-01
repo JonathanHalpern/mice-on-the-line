@@ -38,7 +38,7 @@
     "react-soundplayer": "^1.0.4",
     "react-spring": "^8.0.19",
     "react-toastify": "^5.3.1",
-    "sharp": "^0.22.0",
+    "sharp": "^0.30.5",
     "turn.js": "https://github.com/rizalibnu/turn.js.git",
     "typescript": "^3.3.3333"
   },
