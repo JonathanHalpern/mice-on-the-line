@@ -23,7 +23,7 @@ const SignIn: FC = () => {
     console.log(email, password)
     try {
       await auth.signIn({ email, password })
-      console.log("success")
+      console.log("success yes")
       handleClose()
     } catch (error) {
       console.log("fail")
