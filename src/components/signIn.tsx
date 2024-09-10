@@ -46,7 +46,7 @@ const SignIn: FC = () => {
               color="primary"
               variant="contained"
             >
-              sign {auth.isAuthed ? "out" : "in"}
+              log {auth.isAuthed ? "out" : "in"}
             </Button>
             <Modal
               aria-labelledby="simple-modal-title"
